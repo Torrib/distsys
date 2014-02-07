@@ -5,6 +5,12 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.*;
+import java.rmi.*;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
 
 /**
  * A Tic Tac Toe application.
@@ -22,12 +28,20 @@ public class TicTacToe extends JFrame implements ListSelectionListener
   private final char playerMarks[] = {'X', 'O'};
   private int currentPlayer = 0; // Player to set the next mark.
 
+  ConnectionInterface server;
+  Connection client;
+
   public static void main(String args[])
   {
-    new TicTacToe();
+    try {
+      new TicTacToe();
+    }
+    catch(Exception e) {
+        e.printStackTrace();
+    }
   }
 
-  public TicTacToe()
+  public TicTacToe() throws RemoteException
   {
     super("TDT4190: Tic Tac Toe");
 
@@ -61,11 +75,67 @@ public class TicTacToe extends JFrame implements ListSelectionListener
     int centerY = (int)(Toolkit.getDefaultToolkit().getScreenSize().getHeight() - getSize().height) / 2;
     setLocation(centerX, centerY);
     setVisible(true);
+
+    String address = "localhost:5001";
+    String url = "rmi://" + address + "/ConnectionInterface";
+
+    // Finner server
+    try {
+        server = (ConnectionInterface) Naming.lookup(url);
+
+    } catch (NotBoundException nbe) {
+        System.err.println("Ingen LaaneTjener er registrert!");
+    } catch (ConnectException ce) {
+        System.err.println("Fant ikke RMI registry på adressen "+ address);
+    } catch (Exception e) {
+        System.err.println("En uventet feil oppsto: " + e.getMessage());
+    }
+
+      try {
+      client = new Connection(this);
+      }catch(Exception e) {
+          System.out.println("Kunne ikke opprette klient");
+      }
+      if(server == null) {
+              System.out.println("Server started");
+
+              try {
+                  LocateRegistry.createRegistry(5001);
+
+              }
+              catch (RemoteException e) {
+                  System.out.println("Java RMI registry already exists");
+              }catch(Exception e) {
+                  System.out.println("Detta funka hvertfall ikke..");
+              }
+
+              try {
+                  Naming.rebind(url, client);
+                  server = (ConnectionInterface) Naming.lookup(url);
+                  System.out.println("Shit. It's working!");
+              }
+              catch (Exception e) {
+                  System.err.println("MIH");
+              }
+
+      }else {
+          System.out.println("Server found");
+
+          try {
+              server.passServer(client);
+          } catch (Exception e) {
+              e.printStackTrace();
+          }
+      }
   }
 
   void setStatusMessage(String status)
   {
     statusLabel.setText(status);
+  }
+
+  public void setServer(Connection server) {
+      this.server = server;
   }
 
   /**
@@ -87,5 +157,17 @@ public class TicTacToe extends JFrame implements ListSelectionListener
     if (boardModel.setCell(x, y, playerMarks[currentPlayer]))
       setStatusMessage("Player " + playerMarks[currentPlayer] + " won!");
     currentPlayer = 1 - currentPlayer; // The next turn is by the other player.
+
+    try {
+        server.remoteChange(x, y, playerMarks[currentPlayer]);
+    }catch(RemoteException re) {
+        re.printStackTrace();
+     }
   }
+
+    public void remoteChange(int x, int y, char mark) {
+        if (boardModel.setCell(x, y, mark))
+            setStatusMessage("Player " + playerMarks[currentPlayer] + " won!");
+        currentPlayer = 1 - currentPlayer; // The next turn is by the other player.
+    }
 }

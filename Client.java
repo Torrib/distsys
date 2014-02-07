@@ -1,4 +1,4 @@
-package distsys;
+/*package distsys;
 
 
 import java.rmi.registry.LocateRegistry;
@@ -21,4 +21,4 @@ public class Client {
             e.printStackTrace();
         }
     }
-}
+}  */

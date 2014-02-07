@@ -1,4 +1,4 @@
-package distsys;
+/*package distsys;
 
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
@@ -29,4 +29,4 @@ public class Server
             e.printStackTrace();
         }
     }
-}
+}   */
