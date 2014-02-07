@@ -5,10 +5,7 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.*;
-import java.rmi.ConnectException;
-import java.rmi.Naming;
-import java.rmi.NotBoundException;
-import java.rmi.RemoteException;
+import java.rmi.*;
 
 /**
  * A Tic Tac Toe application.
@@ -33,6 +30,9 @@ public class TicTacToe extends JFrame implements ListSelectionListener
   public static void main(String args[])
   {
       String address = "localhost";
+
+
+      System.setSecurityManager( new CustomSecurity() );
 
       TicTacToe game = new TicTacToe();
       game.initConnections(address);
