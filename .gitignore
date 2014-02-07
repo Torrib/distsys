@@ -1,0 +1,13 @@
+.project
+.classpath
+.settings
+
+gen/
+bin/
+
+*.class
+.DS_Store
+.metadata
+.idea
+out/
+*.iml
