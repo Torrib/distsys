@@ -1,6 +1,9 @@
+package assignment1;
+
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -201,7 +204,11 @@ final class BoardModel implements TableModel
     listeners.remove(l);
   }
 
-  /**
+    public String doMove() throws RemoteException {
+        return null;
+    }
+
+    /**
    * Class representing a single cell in the board.
    */
   private final class Cell
