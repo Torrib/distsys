@@ -30,7 +30,7 @@ public class Connection extends UnicastRemoteObject implements ConnectionInterfa
             LocateRegistry.createRegistry(1314);
         }
         catch (RemoteException e) {
-            System.out.println("Java RMI registry already exists");
+            System.err.println("Java RMI registry already exists");
         }
         try
         {
@@ -48,13 +48,20 @@ public class Connection extends UnicastRemoteObject implements ConnectionInterfa
         game.disconect();
     }
 
-    public void doMove(int x, int y, char mark)
+    public void doMove(int x, int y, int player)
     {
-        game.setMark(x, y, mark);
+        game.setMark(x, y, player);
+        game.setMyTurn(true);
     }
 
     public void passServer(Connection server)
     {
         game.setServer(server);
+    }
+
+    public void passPlayerID(int id)
+    {
+        game.setPlayerID(id);
+        game.setMyTurn(true);
     }
 }

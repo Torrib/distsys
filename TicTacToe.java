@@ -25,6 +25,7 @@ public class TicTacToe extends JFrame implements ListSelectionListener
   private final JLabel statusLabel = new JLabel();
   private final char playerMarks[] = {'X', 'O'};
   private int currentPlayer = 0; // Player to set the next mark.
+    private boolean myTurn = false;
     private ConnectionInterface server;
     private Connection client;
 //  private Connection connection;
@@ -88,6 +89,8 @@ public class TicTacToe extends JFrame implements ListSelectionListener
    */
   public void valueChanged(ListSelectionEvent e)
   {
+      if(!myTurn)
+          return;
     if (e.getValueIsAdjusting())
       return;
     int x = board.getSelectedColumn();
@@ -95,18 +98,23 @@ public class TicTacToe extends JFrame implements ListSelectionListener
     if (x == -1 || y == -1 || !boardModel.isEmpty(x, y))
       return;
     setMark(x, y, playerMarks[currentPlayer]);
-    currentPlayer = 1 - currentPlayer; // The next turn is by the other player.
       try {
-          server.doMove(x, y, playerMarks[currentPlayer]);
+          server.doMove(x, y, currentPlayer);
       } catch (RemoteException e1) {
           e1.printStackTrace();
       }
   }
 
-    public void setMark(int x, int y, char mark)
+    public void setMark(int x, int y, int player)
     {
-        if (boardModel.setCell(x, y, mark))
-            setStatusMessage("Player " + mark + " won!");
+        if (boardModel.setCell(x, y, playerMarks[currentPlayer]))
+            setStatusMessage("Player " + playerMarks[currentPlayer] + " won!");
+
+    }
+
+    public void setMyTurn(boolean myTurn)
+    {
+        this.myTurn = myTurn;
     }
 
 
@@ -124,7 +132,6 @@ public class TicTacToe extends JFrame implements ListSelectionListener
     {
         String url = "rmi://" + address + "/RmiInt";
 
-        // vi prøver å finne serveren
         try {
             server = (ConnectionInterface) Naming.lookup(url);
         }
@@ -159,9 +166,15 @@ public class TicTacToe extends JFrame implements ListSelectionListener
 
             try {
                 server.passServer(client);
+                server.passPlayerID(1);
             } catch (RemoteException e) {
                 e.printStackTrace();
             }
         }
+    }
+
+    public void setPlayerID(int id)
+    {
+        currentPlayer = id;
     }
 }

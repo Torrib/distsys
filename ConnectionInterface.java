@@ -12,8 +12,10 @@ public interface ConnectionInterface extends Remote {
 
     void disconect() throws RemoteException;
 
-    void doMove(int x, int y, char mark) throws RemoteException;
+    void doMove(int x, int y, int currentPlayer) throws RemoteException;
 
     void passServer(Connection server) throws RemoteException;
+
+    void passPlayerID(int id) throws RemoteException;
 
 }
