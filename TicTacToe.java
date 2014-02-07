@@ -94,11 +94,20 @@ public class TicTacToe extends JFrame implements ListSelectionListener
     int y = board.getSelectedRow();
     if (x == -1 || y == -1 || !boardModel.isEmpty(x, y))
       return;
-    if (boardModel.setCell(x, y, playerMarks[currentPlayer]))
-      setStatusMessage("Player " + playerMarks[currentPlayer] + " won!");
+    setMark(x, y, playerMarks[currentPlayer]);
     currentPlayer = 1 - currentPlayer; // The next turn is by the other player.
-//    connection.doMove(e);
+      try {
+          server.doMove(x, y, playerMarks[currentPlayer]);
+      } catch (RemoteException e1) {
+          e1.printStackTrace();
+      }
   }
+
+    public void setMark(int x, int y, char mark)
+    {
+        if (boardModel.setCell(x, y, mark))
+            setStatusMessage("Player " + mark + " won!");
+    }
 
 
     public void disconect()

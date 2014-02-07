@@ -12,7 +12,7 @@ public interface ConnectionInterface extends Remote {
 
     void disconect() throws RemoteException;
 
-    void doMove(ListSelectionEvent e) throws RemoteException;
+    void doMove(int x, int y, char mark) throws RemoteException;
 
     void passServer(Connection server) throws RemoteException;
 

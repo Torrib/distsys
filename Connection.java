@@ -13,8 +13,6 @@ import java.rmi.server.UnicastRemoteObject;
 */
 public class Connection extends UnicastRemoteObject implements ConnectionInterface
 {
-    private static final int BOARDSIZE = 10;
-
     private TicTacToe game;
     private char mark;
 
@@ -50,9 +48,9 @@ public class Connection extends UnicastRemoteObject implements ConnectionInterfa
         game.disconect();
     }
 
-    public void doMove(ListSelectionEvent e)
+    public void doMove(int x, int y, char mark)
     {
-        game.valueChanged(e);
+        game.setMark(x, y, mark);
     }
 
     public void passServer(Connection server)
