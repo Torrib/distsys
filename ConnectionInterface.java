@@ -2,11 +2,18 @@ package distsys;
 /**
  * Created by thb on 03.02.14.
  */
+import javax.swing.event.ListSelectionEvent;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface ConnectionInterface extends Remote {
-    boolean connect(String ip, int port) throws RemoteException;
 
-    boolean disconect() throws RemoteException;
+    void connect(String url) throws RemoteException;
+
+    void disconect() throws RemoteException;
+
+    void doMove(ListSelectionEvent e) throws RemoteException;
+
+    void passServer(Connection server) throws RemoteException;
+
 }

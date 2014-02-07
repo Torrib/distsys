@@ -5,6 +5,10 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.*;
+import java.rmi.ConnectException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 
 /**
  * A Tic Tac Toe application.
@@ -21,10 +25,16 @@ public class TicTacToe extends JFrame implements ListSelectionListener
   private final JLabel statusLabel = new JLabel();
   private final char playerMarks[] = {'X', 'O'};
   private int currentPlayer = 0; // Player to set the next mark.
+    private ConnectionInterface server;
+    private Connection client;
+//  private Connection connection;
 
   public static void main(String args[])
   {
-    new TicTacToe();
+      String address = "localhost";
+
+      TicTacToe game = new TicTacToe();
+      game.initConnections(address);
   }
 
   public TicTacToe()
@@ -87,5 +97,62 @@ public class TicTacToe extends JFrame implements ListSelectionListener
     if (boardModel.setCell(x, y, playerMarks[currentPlayer]))
       setStatusMessage("Player " + playerMarks[currentPlayer] + " won!");
     currentPlayer = 1 - currentPlayer; // The next turn is by the other player.
+//    connection.doMove(e);
   }
+
+
+    public void disconect()
+    {
+        server = null;
+    }
+
+    public void setServer(Connection server)
+    {
+        this.server = server;
+    }
+
+    private void initConnections(String address)
+    {
+        String url = "rmi://" + address + "/RmiInt";
+
+        // vi prøver å finne serveren
+        try {
+            server = (ConnectionInterface) Naming.lookup(url);
+        }
+        catch (NotBoundException nbe) {
+            System.err.println("No server in RMI registry");
+        }
+        catch (ConnectException ce) {
+            System.err.println("No RMI registry found at " + address);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        try {
+            client = new Connection(this);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        if (server == null)
+        {
+            System.err.println("Server not found");
+            try {
+                client.connect(url);
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+        }
+        else {
+            System.out.println("Server found");
+
+            try {
+                server.passServer(client);
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
