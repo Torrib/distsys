@@ -1,4 +1,4 @@
-package assignment1;
+package distsys;
 
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;

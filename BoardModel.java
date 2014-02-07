@@ -1,4 +1,4 @@
-package assignment1;
+package distsys;
 
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;

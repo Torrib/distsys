@@ -1,4 +1,4 @@
-package assignment1;
+package distsys;
 
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;

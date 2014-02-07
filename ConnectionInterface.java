@@ -1,5 +1,4 @@
-package assignment1;
-
+package distsys;
 /**
  * Created by thb on 03.02.14.
  */
