@@ -97,18 +97,19 @@ public class TicTacToe extends JFrame implements ListSelectionListener
     int y = board.getSelectedRow();
     if (x == -1 || y == -1 || !boardModel.isEmpty(x, y))
       return;
-    setMark(x, y, playerMarks[currentPlayer]);
+    setMark(x, y, currentPlayer);
       try {
           server.doMove(x, y, currentPlayer);
       } catch (RemoteException e1) {
           e1.printStackTrace();
       }
+      myTurn = false;
   }
 
     public void setMark(int x, int y, int player)
     {
-        if (boardModel.setCell(x, y, playerMarks[currentPlayer]))
-            setStatusMessage("Player " + playerMarks[currentPlayer] + " won!");
+        if (boardModel.setCell(x, y, playerMarks[player]))
+            setStatusMessage("Player " + playerMarks[player] + " won!");
 
     }
 
@@ -123,7 +124,7 @@ public class TicTacToe extends JFrame implements ListSelectionListener
         server = null;
     }
 
-    public void setServer(Connection server)
+    public void setServer(ConnectionInterface server)
     {
         this.server = server;
     }

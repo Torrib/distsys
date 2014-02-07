@@ -54,7 +54,7 @@ public class Connection extends UnicastRemoteObject implements ConnectionInterfa
         game.setMyTurn(true);
     }
 
-    public void passServer(Connection server)
+    public void passServer(ConnectionInterface server)
     {
         game.setServer(server);
     }
