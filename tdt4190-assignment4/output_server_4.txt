@@ -1,0 +1,20 @@
+==================================================================
+743: Server 4 started.
+11839: Server 4 started its transactions.
+11928: Transaction 4000 arrived.
+11929: TRANS 4000: Starting transaction 4000.
+11930: TRANS 4000: Trying to claim lock of resource 1 at server 3
+11933: TRANS 4000: Lock claimed. Processing...
+12009: TRANS 4000: Trying to claim lock of resource 0 at server 1
+12010: TRANS 4000: Lock claimed. Processing...
+12047: TRANS 4000: Trying to claim lock of resource 5 at server 3
+12048: TRANS 4000: Lock claimed. Processing...
+12083: TRANS 4000: Trying to claim lock of resource 3 at server 1
+12085: TRANS 4000: Lock claimed. Processing...
+12115: TRANS 4000: Trying to claim lock of resource 5 at server 2
+12117: TRANS 4000: Lock claimed. Processing...
+12194: TRANS 4000: Trying to claim lock of resource 6 at server 4
+12194: TRANS 4000: Lock claimed. Processing...
+12278: TRANS 4000: Trying to claim lock of resource 8 at server 1
+197819: Server 4 was notified of the departure of server 2 by server 1.
+199936: Contact with server 1 was lost.

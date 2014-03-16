@@ -1,0 +1,1516 @@
+==================================================================
+871: Server 3 started.
+17250: Server 3 started its transactions.
+17289: Transaction 3000 arrived.
+17290: TRANS 3000: Starting transaction 3000.
+17290: TRANS 3000: Trying to claim lock of resource 9 at server 2
+17292: TRANS 3000: Lock claimed. Processing...
+17375: TRANS 3000: Trying to claim lock of resource 2 at server 3
+17375: TRANS 3000: Lock claimed. Processing...
+17428: TRANS 3000: Trying to claim lock of resource 4 at server 2
+17429: TRANS 3000: Lock claimed. Processing...
+17522: TRANS 3000: Trying to claim lock of resource 2 at server 1
+17523: TRANS 3000: Lock claimed. Processing...
+17572: TRANS 3000: Trying to claim lock of resource 1 at server 2
+17573: TRANS 3000: Lock claimed. Processing...
+17628: TRANS 3000: Committing transaction 3000.
+17629: TRANS 3000: Unlocked resource 9 at server 2
+17629: TRANS 3000: Unlocked resource 2 at server 3
+17630: TRANS 3000: Unlocked resource 4 at server 2
+17633: TRANS 3000: Unlocked resource 2 at server 1
+17635: TRANS 3000: Unlocked resource 1 at server 2
+17635: TRANS 3000: Transaction 3000 committed.
+17635: Transaction 3000 ended.
+17844: Transaction 3001 arrived.
+17844: TRANS 3001: Starting transaction 3001.
+17845: TRANS 3001: Trying to claim lock of resource 0 at server 3
+17845: TRANS 3001: Lock claimed. Processing...
+17886: TRANS 3001: Trying to claim lock of resource 4 at server 3
+17886: TRANS 3001: Lock claimed. Processing...
+17938: TRANS 3001: Trying to claim lock of resource 5 at server 1
+17940: TRANS 3001: Lock claimed. Processing...
+17989: TRANS 3001: Trying to claim lock of resource 4 at server 2
+17990: TRANS 3001: Lock claimed. Processing...
+18089: TRANS 3001: Trying to claim lock of resource 6 at server 3
+18090: TRANS 3001: Lock claimed. Processing...
+18162: TRANS 3001: Committing transaction 3001.
+18162: TRANS 3001: Unlocked resource 0 at server 3
+18163: TRANS 3001: Unlocked resource 4 at server 3
+18164: TRANS 3001: Unlocked resource 5 at server 1
+18166: TRANS 3001: Unlocked resource 4 at server 2
+18166: TRANS 3001: Unlocked resource 6 at server 3
+18167: TRANS 3001: Transaction 3001 committed.
+18167: Transaction 3001 ended.
+18375: Transaction 3002 arrived.
+18376: TRANS 3002: Starting transaction 3002.
+18376: TRANS 3002: Trying to claim lock of resource 6 at server 3
+18376: TRANS 3002: Lock claimed. Processing...
+18464: TRANS 3002: Trying to claim lock of resource 4 at server 3
+18464: TRANS 3002: Lock claimed. Processing...
+18553: TRANS 3002: Trying to claim lock of resource 0 at server 3
+18553: TRANS 3002: Lock claimed. Processing...
+18594: TRANS 3002: Trying to claim lock of resource 7 at server 1
+18595: TRANS 3002: Lock claimed. Processing...
+18673: TRANS 3002: Committing transaction 3002.
+18673: TRANS 3002: Unlocked resource 6 at server 3
+18673: TRANS 3002: Unlocked resource 4 at server 3
+18673: TRANS 3002: Unlocked resource 0 at server 3
+18674: TRANS 3002: Unlocked resource 7 at server 1
+18674: TRANS 3002: Transaction 3002 committed.
+18675: Transaction 3002 ended.
+18904: Transaction 3003 arrived.
+18905: TRANS 3003: Starting transaction 3003.
+18905: TRANS 3003: Trying to claim lock of resource 1 at server 3
+19282: TRANS 3003: Lock claimed. Processing...
+19323: TRANS 3003: Trying to claim lock of resource 1 at server 2
+19324: TRANS 3003: Lock claimed. Processing...
+19386: TRANS 3003: Trying to claim lock of resource 5 at server 2
+19387: TRANS 3003: Lock claimed. Processing...
+19452: TRANS 3003: Committing transaction 3003.
+19452: TRANS 3003: Unlocked resource 1 at server 3
+19453: TRANS 3003: Unlocked resource 1 at server 2
+19454: TRANS 3003: Unlocked resource 5 at server 2
+19454: TRANS 3003: Transaction 3003 committed.
+19454: Transaction 3003 ended.
+19626: Transaction 3004 arrived.
+19627: TRANS 3004: Starting transaction 3004.
+19627: TRANS 3004: Trying to claim lock of resource 0 at server 1
+19628: TRANS 3004: Lock claimed. Processing...
+19696: TRANS 3004: Trying to claim lock of resource 8 at server 1
+19878: TRANS 3004: Lock claimed. Processing...
+19934: TRANS 3004: Trying to claim lock of resource 9 at server 2
+19934: TRANS 3004: Lock claimed. Processing...
+19962: TRANS 3004: Trying to claim lock of resource 5 at server 2
+19963: TRANS 3004: Lock claimed. Processing...
+20037: TRANS 3004: Trying to claim lock of resource 1 at server 1
+1634767: Contact with server 1 was lost.
+1641094: TRANS 3004: Contact was lost with a server hosting a resource involved in transaction 3004. Transaction must abort.
+1641109: TRANS 3004: Aborting transaction 3004.
+1641110: TRANS 3004: Failed to unlock resource 0 at server 1 due to communication failure.
+1641111: TRANS 3004: Failed to unlock resource 8 at server 1 due to communication failure.
+1641112: TRANS 3004: Failed to unlock resource 9 at server 2 due to communication failure.
+1641113: TRANS 3004: Failed to unlock resource 5 at server 2 due to communication failure.
+1641113: TRANS 3004: Transaction 3004 aborted.
+1641113: Transaction 3004 ended.
+==================================================================
+764: Server 3 started.
+4963: Server 3 was notified of the arrival of server 4
+16801: Server 3 started its transactions.
+16879: Transaction 3000 arrived.
+16879: TRANS 3000: Starting transaction 3000.
+16880: TRANS 3000: Trying to claim lock of resource 0 at server 2
+16881: TRANS 3000: Lock claimed. Processing...
+16945: TRANS 3000: Trying to claim lock of resource 4 at server 1
+16947: TRANS 3000: Lock claimed. Processing...
+16993: TRANS 3000: Trying to claim lock of resource 2 at server 1
+16996: TRANS 3000: Lock claimed. Processing...
+17068: TRANS 3000: Trying to claim lock of resource 8 at server 2
+17069: TRANS 3000: Lock claimed. Processing...
+17122: TRANS 3000: Trying to claim lock of resource 1 at server 2
+17123: TRANS 3000: Lock claimed. Processing...
+17183: TRANS 3000: Trying to claim lock of resource 5 at server 4
+17184: TRANS 3000: Lock claimed. Processing...
+17250: TRANS 3000: Trying to claim lock of resource 1 at server 1
+17251: TRANS 3000: Lock claimed. Processing...
+17321: TRANS 3000: Trying to claim lock of resource 3 at server 4
+17322: TRANS 3000: Lock claimed. Processing...
+17374: TRANS 3000: Trying to claim lock of resource 9 at server 1
+==================================================================
+827: Server 3 started.
+6318: Server 3 started its transactions.
+6362: Transaction 3000 arrived.
+6362: TRANS 3000: Starting transaction 3000.
+6363: TRANS 3000: Trying to claim lock of resource 7 at server 3
+6365: TRANS 3000: Lock claimed. Processing...
+6466: TRANS 3000: Trying to claim lock of resource 1 at server 1
+6466: Waiting for other transactions, sending probe messages to them
+6468: TRANS 3000: Lock claimed. Processing...
+6567: TRANS 3000: Trying to claim lock of resource 2 at server 3
+6568: TRANS 3000: Lock claimed. Processing...
+6568: Waiting for other transactions, sending probe messages to them
+6595: TRANS 3000: Committing transaction 3000.
+6596: TRANS 3000: Unlocked resource 7 at server 3
+6598: TRANS 3000: Unlocked resource 1 at server 1
+6599: TRANS 3000: Unlocked resource 2 at server 3
+6599: TRANS 3000: Transaction 3000 committed.
+6600: Transaction 3000 ended.
+6807: Transaction 3001 arrived.
+6808: TRANS 3001: Starting transaction 3001.
+6808: TRANS 3001: Trying to claim lock of resource 7 at server 2
+6809: Waiting for other transactions, sending probe messages to them
+6878: Waiting for other transactions, sending probe messages to them
+6906: Waiting for other transactions, sending probe messages to them
+6989: Waiting for other transactions, sending probe messages to them
+7070: TRANS 3001: Lock claimed. Processing...
+7096: TRANS 3001: Trying to claim lock of resource 0 at server 2
+7097: Waiting for other transactions, sending probe messages to them
+7097: TRANS 3001: Lock claimed. Processing...
+7147: TRANS 3001: Trying to claim lock of resource 1 at server 1
+7149: Waiting for other transactions, sending probe messages to them
+7153: TRANS 3001: Lock claimed. Processing...
+7252: TRANS 3001: Trying to claim lock of resource 9 at server 1
+7253: Waiting for other transactions, sending probe messages to them
+7254: TRANS 3001: Lock claimed. Processing...
+7325: TRANS 3001: Trying to claim lock of resource 8 at server 2
+7326: Waiting for other transactions, sending probe messages to them
+7326: TRANS 3001: Lock claimed. Processing...
+7426: TRANS 3001: Trying to claim lock of resource 2 at server 1
+7427: Waiting for other transactions, sending probe messages to them
+7428: TRANS 3001: Lock claimed. Processing...
+7467: TRANS 3001: Trying to claim lock of resource 4 at server 3
+7469: TRANS 3001: Lock claimed. Processing...
+7557: TRANS 3001: Committing transaction 3001.
+7558: TRANS 3001: Unlocked resource 7 at server 2
+7559: TRANS 3001: Unlocked resource 0 at server 2
+7560: TRANS 3001: Unlocked resource 1 at server 1
+7562: TRANS 3001: Unlocked resource 9 at server 1
+7564: TRANS 3001: Unlocked resource 8 at server 2
+7565: TRANS 3001: Unlocked resource 2 at server 1
+7565: TRANS 3001: Unlocked resource 4 at server 3
+7565: TRANS 3001: Transaction 3001 committed.
+7566: Transaction 3001 ended.
+7715: Transaction 3002 arrived.
+7716: TRANS 3002: Starting transaction 3002.
+7716: TRANS 3002: Trying to claim lock of resource 5 at server 3
+7718: TRANS 3002: Lock claimed. Processing...
+7773: TRANS 3002: Trying to claim lock of resource 0 at server 2
+7774: Waiting for other transactions, sending probe messages to them
+7774: TRANS 3002: Lock claimed. Processing...
+7809: TRANS 3002: Trying to claim lock of resource 6 at server 2
+7809: Waiting for other transactions, sending probe messages to them
+7810: TRANS 3002: Lock claimed. Processing...
+7871: TRANS 3002: Trying to claim lock of resource 4 at server 3
+7871: Waiting for other transactions, sending probe messages to them
+7871: TRANS 3002: Lock claimed. Processing...
+7952: TRANS 3002: Committing transaction 3002.
+7953: TRANS 3002: Unlocked resource 5 at server 3
+7954: TRANS 3002: Unlocked resource 0 at server 2
+7954: TRANS 3002: Unlocked resource 6 at server 2
+7955: TRANS 3002: Unlocked resource 4 at server 3
+7955: TRANS 3002: Transaction 3002 committed.
+7955: Transaction 3002 ended.
+8105: Transaction 3003 arrived.
+8105: TRANS 3003: Starting transaction 3003.
+8105: TRANS 3003: Trying to claim lock of resource 4 at server 3
+8106: Waiting for other transactions, sending probe messages to them
+8106: TRANS 3003: Dead lock detected[3003, 3003]
+8106: Size of waitForGraph: 2
+8107: Trying to resolve deadlock 3003
+8130: TRANS 3003: Lock claimed. Processing...
+8184: TRANS 3003: Trying to claim lock of resource 6 at server 3
+8185: TRANS 3003: Lock claimed. Processing...
+8185: Waiting for other transactions, sending probe messages to them
+8278: TRANS 3003: Trying to claim lock of resource 4 at server 2
+8279: Waiting for other transactions, sending probe messages to them
+8281: TRANS 3003: Dead lock detected[3003, 2002, 3003]
+8283: Size of waitForGraph: 3
+8283: Trying to resolve deadlock 3003
+8283: Waiting for other transactions, sending probe messages to them
+8289: TRANS 3003: Dead lock detected[1003, 3003, 2002, 3003]
+8290: Size of waitForGraph: 4
+8290: Trying to resolve deadlock 3003
+8411: Waiting for other transactions, sending probe messages to them
+8584: Waiting for other transactions, sending probe messages to them
+8616: Waiting for other transactions, sending probe messages to them
+8978: Waiting for other transactions, sending probe messages to them
+9018: Waiting for other transactions, sending probe messages to them
+9067: Waiting for other transactions, sending probe messages to them
+9070: TRANS 3003: Dead lock detected[1004, 3003, 2002, 3003]
+9073: Size of waitForGraph: 4
+9073: Trying to resolve deadlock 3003
+107406: Contact with server 2 was lost.
+107409: TRANS 3003: Aborting transaction 3003.
+107409: TRANS 3003: Unlocked resource 4 at server 3
+107409: TRANS 3003: Unlocked resource 6 at server 3
+107410: TRANS 3003: Transaction 3003 aborted.
+107415: Transaction 3003 ended.
+==================================================================
+836: Server 3 started.
+2776: Server 3 started its transactions.
+2855: Transaction 3000 arrived.
+2856: TRANS 3000: Starting transaction 3000.
+2856: TRANS 3000: Trying to claim lock of resource 7 at server 2
+2858: Waiting for other transactions, sending probe messages to them
+2860: TRANS 3000: Lock claimed. Processing...
+2908: TRANS 3000: Trying to claim lock of resource 3 at server 1
+2908: Waiting for other transactions, sending probe messages to them
+2909: TRANS 3000: Lock claimed. Processing...
+2975: TRANS 3000: Trying to claim lock of resource 7 at server 1
+2977: Waiting for other transactions, sending probe messages to them
+2979: Waiting for other transactions, sending probe messages to them
+2980: TRANS 3000: Lock claimed. Processing...
+3050: TRANS 3000: Trying to claim lock of resource 2 at server 1
+3052: Waiting for other transactions, sending probe messages to them
+3055: TRANS 3000: Lock claimed. Processing...
+3084: TRANS 3000: Trying to claim lock of resource 4 at server 1
+3085: Waiting for other transactions, sending probe messages to them
+3087: TRANS 3000: Lock claimed. Processing...
+3130: TRANS 3000: Trying to claim lock of resource 6 at server 3
+3131: TRANS 3000: Lock claimed. Processing...
+3164: TRANS 3000: Trying to claim lock of resource 4 at server 3
+3164: TRANS 3000: Lock claimed. Processing...
+3164: Waiting for other transactions, sending probe messages to them
+3202: TRANS 3000: Trying to claim lock of resource 5 at server 1
+3202: Waiting for other transactions, sending probe messages to them
+3203: TRANS 3000: Lock claimed. Processing...
+3277: TRANS 3000: Committing transaction 3000.
+3278: TRANS 3000: Unlocked resource 7 at server 2
+3279: TRANS 3000: Unlocked resource 3 at server 1
+3281: TRANS 3000: Unlocked resource 7 at server 1
+3283: TRANS 3000: Unlocked resource 2 at server 1
+3284: TRANS 3000: Unlocked resource 4 at server 1
+3284: TRANS 3000: Unlocked resource 6 at server 3
+3284: TRANS 3000: Unlocked resource 4 at server 3
+3285: TRANS 3000: Unlocked resource 5 at server 1
+3285: TRANS 3000: Transaction 3000 committed.
+3285: Transaction 3000 ended.
+3388: Transaction 3001 arrived.
+3388: TRANS 3001: Starting transaction 3001.
+3388: TRANS 3001: Trying to claim lock of resource 2 at server 2
+3389: Waiting for other transactions, sending probe messages to them
+637845: Server 3 was notified of the departure of server 1 by server 2.
+638556: Contact with server 2 was lost.
+==================================================================
+796: Server 3 started.
+2390: Server 3 started its transactions.
+2411: Transaction 3000 arrived.
+2412: TRANS 3000: Starting transaction 3000.
+2412: TRANS 3000: Trying to claim lock of resource 5 at server 2
+2413: Waiting for other transactions, sending probe messages to them
+2414: TRANS 3000: Lock claimed. Processing...
+2507: TRANS 3000: Trying to claim lock of resource 4 at server 1
+2508: Waiting for other transactions, sending probe messages to them
+2509: TRANS 3000: Lock claimed. Processing...
+2551: TRANS 3000: Trying to claim lock of resource 0 at server 1
+2552: Waiting for other transactions, sending probe messages to them
+2553: TRANS 3000: Lock claimed. Processing...
+2628: TRANS 3000: Committing transaction 3000.
+2629: TRANS 3000: Unlocked resource 5 at server 2
+2630: TRANS 3000: Unlocked resource 4 at server 1
+2633: TRANS 3000: Unlocked resource 0 at server 1
+2639: TRANS 3000: Transaction 3000 committed.
+2639: Transaction 3000 ended.
+2862: Transaction 3001 arrived.
+2862: TRANS 3001: Starting transaction 3001.
+2862: TRANS 3001: Trying to claim lock of resource 8 at server 3
+2863: TRANS 3001: Lock claimed. Processing...
+2934: TRANS 3001: Trying to claim lock of resource 7 at server 1
+2935: Waiting for other transactions, sending probe messages to them
+2936: TRANS 3001: Lock claimed. Processing...
+2979: TRANS 3001: Trying to claim lock of resource 0 at server 3
+2979: TRANS 3001: Lock claimed. Processing...
+3034: TRANS 3001: Trying to claim lock of resource 7 at server 2
+3035: Waiting for other transactions, sending probe messages to them
+3056: Waiting for other transactions, sending probe messages to them
+3199: Waiting for other transactions, sending probe messages to them
+21212: Contact with server 2 was lost.
+21221: TRANS 3001: Aborting transaction 3001.
+21222: TRANS 3001: Unlocked resource 8 at server 3
+21222: TRANS 3001: Failed to unlock resource 7 at server 1 due to communication failure.
+21223: TRANS 3001: Unlocked resource 0 at server 3
+21223: TRANS 3001: Transaction 3001 aborted.
+21223: Transaction 3001 ended.
+21393: Transaction 3002 arrived.
+21393: TRANS 3002: Starting transaction 3002.
+21394: TRANS 3002: Trying to claim lock of resource 3 at server 1
+21394: Waiting for other transactions, sending probe messages to them
+21396: Contact with server 1 was lost.
+21397: TRANS 3002: Aborting transaction 3002.
+21398: TRANS 3002: Transaction 3002 aborted.
+21398: Transaction 3002 ended.
+21465: Transaction 3003 arrived.
+21466: TRANS 3003: Starting transaction 3003.
+21466: TRANS 3003: Trying to claim lock of resource 7 at server 3
+21467: TRANS 3003: Lock claimed. Processing...
+21533: TRANS 3003: Trying to claim lock of resource 9 at server 3
+21534: TRANS 3003: Lock claimed. Processing...
+21607: TRANS 3003: Trying to claim lock of resource 1 at server 3
+21607: TRANS 3003: Lock claimed. Processing...
+21687: TRANS 3003: Trying to claim lock of resource 5 at server 3
+21687: Waiting for other transactions, sending probe messages to them
+21687: TRANS 3003: Lock claimed. Processing...
+21727: TRANS 3003: Trying to claim lock of resource 0 at server 3
+21727: TRANS 3003: Lock claimed. Processing...
+21806: TRANS 3003: Trying to claim lock of resource 2 at server 3
+21806: TRANS 3003: Lock claimed. Processing...
+21907: TRANS 3003: Committing transaction 3003.
+21907: TRANS 3003: Unlocked resource 7 at server 3
+21908: TRANS 3003: Unlocked resource 9 at server 3
+21908: TRANS 3003: Unlocked resource 1 at server 3
+21908: TRANS 3003: Unlocked resource 5 at server 3
+21908: TRANS 3003: Unlocked resource 0 at server 3
+21908: TRANS 3003: Unlocked resource 2 at server 3
+21908: TRANS 3003: Transaction 3003 committed.
+21908: Transaction 3003 ended.
+22013: Transaction 3004 arrived.
+22013: TRANS 3004: Starting transaction 3004.
+22013: TRANS 3004: Trying to claim lock of resource 1 at server 3
+22014: TRANS 3004: Lock claimed. Processing...
+22111: TRANS 3004: Trying to claim lock of resource 3 at server 3
+22111: TRANS 3004: Lock claimed. Processing...
+22162: TRANS 3004: Trying to claim lock of resource 6 at server 3
+22163: TRANS 3004: Lock claimed. Processing...
+22261: TRANS 3004: Trying to claim lock of resource 8 at server 3
+22262: Waiting for other transactions, sending probe messages to them
+22262: TRANS 3004: Dead lock detected[3004, 3004]
+22264: Size of waitForGraph: 2
+22265: Trying to resolve deadlock 3004
+==================================================================
+796: Server 3 started.
+10812: Server 3 started its transactions.
+10870: Transaction 3000 arrived.
+10870: TRANS 3000: Starting transaction 3000.
+10871: TRANS 3000: Trying to claim lock of resource 8 at server 3
+10872: TRANS 3000: Lock claimed. Processing...
+10919: TRANS 3000: Trying to claim lock of resource 0 at server 3
+10920: TRANS 3000: Lock claimed. Processing...
+10948: TRANS 3000: Trying to claim lock of resource 9 at server 3
+10949: Waiting for other transactions, sending probe messages to them
+10949: TRANS 3000: Lock claimed. Processing...
+11018: TRANS 3000: Trying to claim lock of resource 1 at server 3
+11019: TRANS 3000: Lock claimed. Processing...
+11094: TRANS 3000: Trying to claim lock of resource 9 at server 1
+11094: Waiting for other transactions, sending probe messages to them
+11095: TRANS 3000: Lock claimed. Processing...
+11152: TRANS 3000: Trying to claim lock of resource 7 at server 3
+11152: Waiting for other transactions, sending probe messages to them
+11152: TRANS 3000: Lock claimed. Processing...
+11215: TRANS 3000: Trying to claim lock of resource 0 at server 2
+11215: Waiting for other transactions, sending probe messages to them
+11216: TRANS 3000: Lock claimed. Processing...
+11247: TRANS 3000: Committing transaction 3000.
+11247: TRANS 3000: Unlocked resource 8 at server 3
+11247: TRANS 3000: Unlocked resource 0 at server 3
+11247: TRANS 3000: Unlocked resource 9 at server 3
+11248: TRANS 3000: Unlocked resource 1 at server 3
+11251: TRANS 3000: Unlocked resource 9 at server 1
+11252: TRANS 3000: Unlocked resource 7 at server 3
+11254: TRANS 3000: Unlocked resource 0 at server 2
+11254: TRANS 3000: Transaction 3000 committed.
+11255: Transaction 3000 ended.
+11539: Transaction 3001 arrived.
+11539: TRANS 3001: Starting transaction 3001.
+11539: TRANS 3001: Trying to claim lock of resource 9 at server 3
+11540: TRANS 3001: Lock claimed. Processing...
+11574: TRANS 3001: Trying to claim lock of resource 3 at server 3
+11575: TRANS 3001: Lock claimed. Processing...
+11575: Waiting for other transactions, sending probe messages to them
+11658: TRANS 3001: Trying to claim lock of resource 1 at server 3
+11658: Waiting for other transactions, sending probe messages to them
+11658: TRANS 3001: Lock claimed. Processing...
+11697: TRANS 3001: Trying to claim lock of resource 0 at server 2
+11698: Waiting for other transactions, sending probe messages to them
+11745: Waiting for other transactions, sending probe messages to them
+11779: Waiting for other transactions, sending probe messages to them
+11928: Waiting for other transactions, sending probe messages to them
+11934: Waiting for other transactions, sending probe messages to them
+12038: TRANS 3001: Aborting transaction 3001.
+12038: TRANS 3001: Unlocked resource 9 at server 3
+12039: TRANS 3001: Unlocked resource 3 at server 3
+12039: TRANS 3001: Unlocked resource 1 at server 3
+12039: TRANS 3001: Transaction 3001 aborted.
+12039: Transaction 3001 ended.
+12204: Transaction 3002 arrived.
+12204: TRANS 3002: Starting transaction 3002.
+12205: TRANS 3002: Trying to claim lock of resource 4 at server 3
+12205: TRANS 3002: Lock claimed. Processing...
+12299: TRANS 3002: Trying to claim lock of resource 9 at server 3
+12300: Waiting for other transactions, sending probe messages to them
+12300: TRANS 3002: Lock claimed. Processing...
+12395: TRANS 3002: Trying to claim lock of resource 7 at server 1
+12396: Waiting for other transactions, sending probe messages to them
+12396: TRANS 3002: Lock claimed. Processing...
+12443: TRANS 3002: Trying to claim lock of resource 3 at server 2
+12444: Waiting for other transactions, sending probe messages to them
+12444: TRANS 3002: Lock claimed. Processing...
+12467: TRANS 3002: Trying to claim lock of resource 7 at server 3
+12467: TRANS 3002: Lock claimed. Processing...
+12531: TRANS 3002: Trying to claim lock of resource 6 at server 3
+12532: Waiting for other transactions, sending probe messages to them
+12532: TRANS 3002: Lock claimed. Processing...
+12599: TRANS 3002: Trying to claim lock of resource 2 at server 2
+12599: Waiting for other transactions, sending probe messages to them
+12600: TRANS 3002: Lock claimed. Processing...
+12664: TRANS 3002: Trying to claim lock of resource 9 at server 2
+12664: Waiting for other transactions, sending probe messages to them
+12867: Waiting for other transactions, sending probe messages to them
+12993: Waiting for other transactions, sending probe messages to them
+13070: Waiting for other transactions, sending probe messages to them
+13161: Waiting for other transactions, sending probe messages to them
+13332: Waiting for other transactions, sending probe messages to them
+13637: Waiting for other transactions, sending probe messages to them
+13983: Waiting for other transactions, sending probe messages to them
+14892: Waiting for other transactions, sending probe messages to them
+15619: TRANS 3002: Aborting transaction 3002.
+15620: TRANS 3002: Unlocked resource 4 at server 3
+15620: TRANS 3002: Unlocked resource 9 at server 3
+15621: TRANS 3002: Unlocked resource 7 at server 1
+15622: TRANS 3002: Unlocked resource 3 at server 2
+15623: TRANS 3002: Unlocked resource 7 at server 3
+15623: TRANS 3002: Unlocked resource 6 at server 3
+15624: TRANS 3002: Unlocked resource 2 at server 2
+15624: TRANS 3002: Transaction 3002 aborted.
+15624: Transaction 3002 ended.
+15827: Transaction 3003 arrived.
+15827: TRANS 3003: Starting transaction 3003.
+15828: TRANS 3003: Trying to claim lock of resource 2 at server 3
+15828: Waiting for other transactions, sending probe messages to them
+15829: TRANS 3003: Dead lock detected[3003, 3003]
+15829: Size of waitForGraph: 2
+15829: Trying to resolve deadlock 3003
+15830: TRANS 3003: Aborting transaction 3003.
+15830: TRANS 3003: Transaction 3003 aborted.
+15830: Transaction 3003 ended.
+15931: Transaction 3004 arrived.
+15931: TRANS 3004: Starting transaction 3004.
+15931: TRANS 3004: Trying to claim lock of resource 9 at server 1
+15931: Waiting for other transactions, sending probe messages to them
+15950: Waiting for other transactions, sending probe messages to them
+15990: Waiting for other transactions, sending probe messages to them
+16068: TRANS 3004: Lock claimed. Processing...
+16104: TRANS 3004: Trying to claim lock of resource 2 at server 2
+16105: Waiting for other transactions, sending probe messages to them
+16106: TRANS 3004: Lock claimed. Processing...
+16167: TRANS 3004: Trying to claim lock of resource 1 at server 2
+16167: Waiting for other transactions, sending probe messages to them
+16168: TRANS 3004: Lock claimed. Processing...
+16222: TRANS 3004: Trying to claim lock of resource 5 at server 1
+16223: Waiting for other transactions, sending probe messages to them
+16224: TRANS 3004: Lock claimed. Processing...
+16260: TRANS 3004: Committing transaction 3004.
+16261: TRANS 3004: Unlocked resource 9 at server 1
+16262: TRANS 3004: Unlocked resource 2 at server 2
+16263: TRANS 3004: Unlocked resource 1 at server 2
+16264: TRANS 3004: Unlocked resource 5 at server 1
+16264: TRANS 3004: Transaction 3004 committed.
+16264: Transaction 3004 ended.
+16540: Transaction 3005 arrived.
+16540: TRANS 3005: Starting transaction 3005.
+16540: TRANS 3005: Trying to claim lock of resource 8 at server 3
+16541: TRANS 3005: Lock claimed. Processing...
+16598: TRANS 3005: Trying to claim lock of resource 7 at server 3
+16600: TRANS 3005: Lock claimed. Processing...
+16637: TRANS 3005: Trying to claim lock of resource 1 at server 1
+16637: Waiting for other transactions, sending probe messages to them
+16638: TRANS 3005: Lock claimed. Processing...
+16675: TRANS 3005: Trying to claim lock of resource 1 at server 3
+16676: TRANS 3005: Lock claimed. Processing...
+16714: TRANS 3005: Trying to claim lock of resource 0 at server 2
+16715: Waiting for other transactions, sending probe messages to them
+16716: TRANS 3005: Lock claimed. Processing...
+16780: TRANS 3005: Trying to claim lock of resource 7 at server 1
+16781: Waiting for other transactions, sending probe messages to them
+16971: Waiting for other transactions, sending probe messages to them
+17089: Waiting for other transactions, sending probe messages to them
+17212: Waiting for other transactions, sending probe messages to them
+17224: TRANS 3005: Lock claimed. Processing...
+17316: TRANS 3005: Trying to claim lock of resource 2 at server 3
+17316: TRANS 3005: Lock claimed. Processing...
+17397: TRANS 3005: Trying to claim lock of resource 8 at server 1
+17397: Waiting for other transactions, sending probe messages to them
+17398: TRANS 3005: Lock claimed. Processing...
+17422: TRANS 3005: Trying to claim lock of resource 0 at server 1
+17422: Waiting for other transactions, sending probe messages to them
+17425: TRANS 3005: Dead lock detected[3005, 1009, 3005]
+17430: Size of waitForGraph: 3
+17431: Trying to resolve deadlock 3005
+17433: TRANS 3005: Aborting transaction 3005.
+17433: TRANS 3005: Unlocked resource 8 at server 3
+17434: TRANS 3005: Unlocked resource 7 at server 3
+17434: TRANS 3005: Unlocked resource 1 at server 1
+17434: TRANS 3005: Unlocked resource 1 at server 3
+17435: TRANS 3005: Unlocked resource 0 at server 2
+17436: TRANS 3005: Unlocked resource 7 at server 1
+17436: TRANS 3005: Unlocked resource 2 at server 3
+17437: TRANS 3005: Unlocked resource 8 at server 1
+17437: TRANS 3005: Transaction 3005 aborted.
+17439: Transaction 3005 ended.
+17657: Transaction 3006 arrived.
+17657: TRANS 3006: Starting transaction 3006.
+17658: TRANS 3006: Trying to claim lock of resource 5 at server 3
+17663: Waiting for other transactions, sending probe messages to them
+17664: TRANS 3006: Dead lock detected[3006, 3006]
+17664: Size of waitForGraph: 2
+17664: Trying to resolve deadlock 3006
+17665: TRANS 3006: Aborting transaction 3006.
+17665: TRANS 3006: Transaction 3006 aborted.
+17666: Transaction 3006 ended.
+17837: Transaction 3007 arrived.
+17837: TRANS 3007: Starting transaction 3007.
+17838: TRANS 3007: Trying to claim lock of resource 5 at server 2
+17838: Waiting for other transactions, sending probe messages to them
+17838: TRANS 3007: Lock claimed. Processing...
+17870: TRANS 3007: Trying to claim lock of resource 8 at server 3
+17870: Waiting for other transactions, sending probe messages to them
+17871: TRANS 3007: Dead lock detected[3007, 3007]
+17871: Size of waitForGraph: 2
+17874: Trying to resolve deadlock 3007
+17875: TRANS 3007: Aborting transaction 3007.
+17877: TRANS 3007: Unlocked resource 5 at server 2
+17877: TRANS 3007: Transaction 3007 aborted.
+17877: Transaction 3007 ended.
+18015: Transaction 3008 arrived.
+18016: TRANS 3008: Starting transaction 3008.
+18016: TRANS 3008: Trying to claim lock of resource 7 at server 3
+18016: TRANS 3008: Lock claimed. Processing...
+18106: TRANS 3008: Trying to claim lock of resource 0 at server 2
+18107: Waiting for other transactions, sending probe messages to them
+18108: TRANS 3008: Lock claimed. Processing...
+18209: TRANS 3008: Trying to claim lock of resource 9 at server 3
+18209: Waiting for other transactions, sending probe messages to them
+18210: TRANS 3008: Dead lock detected[3008, 3008]
+18210: Size of waitForGraph: 2
+18212: Trying to resolve deadlock 3008
+18213: TRANS 3008: Aborting transaction 3008.
+18213: TRANS 3008: Unlocked resource 7 at server 3
+18214: TRANS 3008: Unlocked resource 0 at server 2
+18214: TRANS 3008: Transaction 3008 aborted.
+18221: Transaction 3008 ended.
+18505: Transaction 3009 arrived.
+18506: TRANS 3009: Starting transaction 3009.
+18506: TRANS 3009: Trying to claim lock of resource 9 at server 1
+18506: Waiting for other transactions, sending probe messages to them
+18507: TRANS 3009: Lock claimed. Processing...
+18582: TRANS 3009: Trying to claim lock of resource 9 at server 3
+18583: TRANS 3009: Lock claimed. Processing...
+18639: TRANS 3009: Trying to claim lock of resource 2 at server 2
+18639: Waiting for other transactions, sending probe messages to them
+18640: TRANS 3009: Lock claimed. Processing...
+18715: TRANS 3009: Trying to claim lock of resource 4 at server 2
+18716: Waiting for other transactions, sending probe messages to them
+18716: TRANS 3009: Lock claimed. Processing...
+18771: TRANS 3009: Trying to claim lock of resource 1 at server 3
+18771: TRANS 3009: Lock claimed. Processing...
+18805: TRANS 3009: Trying to claim lock of resource 6 at server 2
+18805: Waiting for other transactions, sending probe messages to them
+18806: TRANS 3009: Lock claimed. Processing...
+18880: TRANS 3009: Committing transaction 3009.
+18881: TRANS 3009: Unlocked resource 9 at server 1
+18881: TRANS 3009: Unlocked resource 9 at server 3
+18882: TRANS 3009: Unlocked resource 2 at server 2
+18882: TRANS 3009: Unlocked resource 4 at server 2
+18883: TRANS 3009: Unlocked resource 1 at server 3
+18884: TRANS 3009: Unlocked resource 6 at server 2
+18884: TRANS 3009: Transaction 3009 committed.
+18884: Transaction 3009 ended.
+18951: Transaction 3010 arrived.
+18951: TRANS 3010: Starting transaction 3010.
+18951: TRANS 3010: Trying to claim lock of resource 8 at server 3
+18952: TRANS 3010: Lock claimed. Processing...
+19028: TRANS 3010: Trying to claim lock of resource 6 at server 2
+19029: Waiting for other transactions, sending probe messages to them
+19029: TRANS 3010: Lock claimed. Processing...
+19087: TRANS 3010: Trying to claim lock of resource 5 at server 1
+19093: Waiting for other transactions, sending probe messages to them
+19096: TRANS 3010: Lock claimed. Processing...
+19153: TRANS 3010: Committing transaction 3010.
+19153: TRANS 3010: Unlocked resource 8 at server 3
+19154: TRANS 3010: Unlocked resource 6 at server 2
+19155: TRANS 3010: Unlocked resource 5 at server 1
+19155: TRANS 3010: Transaction 3010 committed.
+19155: Transaction 3010 ended.
+19448: Transaction 3011 arrived.
+19448: TRANS 3011: Starting transaction 3011.
+19448: TRANS 3011: Trying to claim lock of resource 7 at server 2
+19456: Waiting for other transactions, sending probe messages to them
+19459: TRANS 3011: Lock claimed. Processing...
+19539: TRANS 3011: Trying to claim lock of resource 4 at server 3
+19539: TRANS 3011: Lock claimed. Processing...
+19585: TRANS 3011: Trying to claim lock of resource 1 at server 1
+19586: Waiting for other transactions, sending probe messages to them
+19586: TRANS 3011: Lock claimed. Processing...
+19613: TRANS 3011: Trying to claim lock of resource 4 at server 1
+19613: Waiting for other transactions, sending probe messages to them
+19616: TRANS 3011: Lock claimed. Processing...
+19661: TRANS 3011: Trying to claim lock of resource 3 at server 2
+19662: Waiting for other transactions, sending probe messages to them
+19667: TRANS 3011: Lock claimed. Processing...
+19697: TRANS 3011: Trying to claim lock of resource 0 at server 1
+19697: Waiting for other transactions, sending probe messages to them
+19698: TRANS 3011: Lock claimed. Processing...
+19793: TRANS 3011: Trying to claim lock of resource 0 at server 3
+19794: TRANS 3011: Lock claimed. Processing...
+19856: TRANS 3011: Committing transaction 3011.
+19857: TRANS 3011: Unlocked resource 7 at server 2
+19858: TRANS 3011: Unlocked resource 4 at server 3
+19858: TRANS 3011: Unlocked resource 1 at server 1
+19859: TRANS 3011: Unlocked resource 4 at server 1
+19860: TRANS 3011: Unlocked resource 3 at server 2
+19860: TRANS 3011: Unlocked resource 0 at server 1
+19861: TRANS 3011: Unlocked resource 0 at server 3
+19861: TRANS 3011: Transaction 3011 committed.
+19861: Transaction 3011 ended.
+20071: Transaction 3012 arrived.
+20071: TRANS 3012: Starting transaction 3012.
+20072: TRANS 3012: Trying to claim lock of resource 1 at server 3
+20072: TRANS 3012: Lock claimed. Processing...
+20109: TRANS 3012: Trying to claim lock of resource 0 at server 1
+20109: Waiting for other transactions, sending probe messages to them
+20113: TRANS 3012: Lock claimed. Processing...
+20136: TRANS 3012: Trying to claim lock of resource 8 at server 2
+20137: Waiting for other transactions, sending probe messages to them
+20137: TRANS 3012: Lock claimed. Processing...
+20195: TRANS 3012: Trying to claim lock of resource 3 at server 3
+20195: Waiting for other transactions, sending probe messages to them
+20195: TRANS 3012: Lock claimed. Processing...
+20287: TRANS 3012: Committing transaction 3012.
+20287: TRANS 3012: Unlocked resource 1 at server 3
+20288: TRANS 3012: Unlocked resource 0 at server 1
+20289: TRANS 3012: Unlocked resource 8 at server 2
+20289: TRANS 3012: Unlocked resource 3 at server 3
+20289: TRANS 3012: Transaction 3012 committed.
+20289: Transaction 3012 ended.
+20564: Transaction 3013 arrived.
+20564: TRANS 3013: Starting transaction 3013.
+20564: TRANS 3013: Trying to claim lock of resource 5 at server 3
+20565: TRANS 3013: Lock claimed. Processing...
+20652: TRANS 3013: Trying to claim lock of resource 9 at server 2
+20652: Waiting for other transactions, sending probe messages to them
+20653: TRANS 3013: Lock claimed. Processing...
+20733: TRANS 3013: Trying to claim lock of resource 1 at server 2
+20733: Waiting for other transactions, sending probe messages to them
+20734: TRANS 3013: Lock claimed. Processing...
+20802: TRANS 3013: Trying to claim lock of resource 9 at server 1
+20802: Waiting for other transactions, sending probe messages to them
+20803: TRANS 3013: Lock claimed. Processing...
+20846: TRANS 3013: Trying to claim lock of resource 3 at server 1
+20847: Waiting for other transactions, sending probe messages to them
+20847: TRANS 3013: Lock claimed. Processing...
+20937: TRANS 3013: Trying to claim lock of resource 6 at server 1
+20938: Waiting for other transactions, sending probe messages to them
+21163: TRANS 3013: Lock claimed. Processing...
+21238: TRANS 3013: Trying to claim lock of resource 3 at server 3
+21238: TRANS 3013: Lock claimed. Processing...
+21289: TRANS 3013: Trying to claim lock of resource 0 at server 2
+21289: Waiting for other transactions, sending probe messages to them
+21290: TRANS 3013: Lock claimed. Processing...
+21366: TRANS 3013: Trying to claim lock of resource 3 at server 2
+21366: Waiting for other transactions, sending probe messages to them
+21367: TRANS 3013: Lock claimed. Processing...
+21442: TRANS 3013: Trying to claim lock of resource 4 at server 2
+21443: Waiting for other transactions, sending probe messages to them
+21444: TRANS 3013: Lock claimed. Processing...
+21521: TRANS 3013: Committing transaction 3013.
+21521: TRANS 3013: Unlocked resource 5 at server 3
+21522: TRANS 3013: Unlocked resource 9 at server 2
+21523: TRANS 3013: Unlocked resource 1 at server 2
+21524: TRANS 3013: Unlocked resource 9 at server 1
+21525: TRANS 3013: Unlocked resource 3 at server 1
+21526: TRANS 3013: Unlocked resource 6 at server 1
+21526: TRANS 3013: Unlocked resource 3 at server 3
+21530: TRANS 3013: Unlocked resource 0 at server 2
+21532: TRANS 3013: Unlocked resource 3 at server 2
+21536: TRANS 3013: Unlocked resource 4 at server 2
+21536: TRANS 3013: Transaction 3013 committed.
+21537: Transaction 3013 ended.
+21688: Transaction 3014 arrived.
+21689: TRANS 3014: Starting transaction 3014.
+21689: TRANS 3014: Trying to claim lock of resource 2 at server 1
+21689: Waiting for other transactions, sending probe messages to them
+21770: Waiting for other transactions, sending probe messages to them
+21816: Waiting for other transactions, sending probe messages to them
+21912: TRANS 3014: Lock claimed. Processing...
+21998: TRANS 3014: Trying to claim lock of resource 3 at server 3
+21998: TRANS 3014: Lock claimed. Processing...
+22064: TRANS 3014: Trying to claim lock of resource 5 at server 1
+22065: Waiting for other transactions, sending probe messages to them
+22065: TRANS 3014: Lock claimed. Processing...
+22099: TRANS 3014: Trying to claim lock of resource 3 at server 2
+22099: Waiting for other transactions, sending probe messages to them
+22100: TRANS 3014: Lock claimed. Processing...
+22141: TRANS 3014: Trying to claim lock of resource 3 at server 1
+22141: Waiting for other transactions, sending probe messages to them
+22142: TRANS 3014: Lock claimed. Processing...
+22236: TRANS 3014: Committing transaction 3014.
+22237: TRANS 3014: Unlocked resource 2 at server 1
+22237: TRANS 3014: Unlocked resource 3 at server 3
+22238: TRANS 3014: Unlocked resource 5 at server 1
+22239: TRANS 3014: Unlocked resource 3 at server 2
+22240: TRANS 3014: Unlocked resource 3 at server 1
+22240: TRANS 3014: Transaction 3014 committed.
+22240: Transaction 3014 ended.
+22434: Transaction 3015 arrived.
+22434: TRANS 3015: Starting transaction 3015.
+22435: TRANS 3015: Trying to claim lock of resource 8 at server 1
+22435: Waiting for other transactions, sending probe messages to them
+22435: TRANS 3015: Lock claimed. Processing...
+22458: TRANS 3015: Trying to claim lock of resource 7 at server 2
+22459: Waiting for other transactions, sending probe messages to them
+22460: TRANS 3015: Lock claimed. Processing...
+22510: TRANS 3015: Trying to claim lock of resource 5 at server 1
+22510: Waiting for other transactions, sending probe messages to them
+22511: TRANS 3015: Lock claimed. Processing...
+22540: TRANS 3015: Trying to claim lock of resource 8 at server 3
+22541: Waiting for other transactions, sending probe messages to them
+22541: TRANS 3015: Dead lock detected[3015, 3015]
+22541: Size of waitForGraph: 2
+22544: Trying to resolve deadlock 3015
+22544: TRANS 3015: Aborting transaction 3015.
+22546: TRANS 3015: Unlocked resource 8 at server 1
+22547: TRANS 3015: Unlocked resource 7 at server 2
+22548: TRANS 3015: Unlocked resource 5 at server 1
+22548: TRANS 3015: Transaction 3015 aborted.
+22553: Transaction 3015 ended.
+22727: Transaction 3016 arrived.
+22728: TRANS 3016: Starting transaction 3016.
+22728: TRANS 3016: Trying to claim lock of resource 0 at server 1
+22728: Waiting for other transactions, sending probe messages to them
+22729: TRANS 3016: Lock claimed. Processing...
+22777: TRANS 3016: Trying to claim lock of resource 0 at server 3
+22783: TRANS 3016: Lock claimed. Processing...
+22828: TRANS 3016: Trying to claim lock of resource 6 at server 3
+22828: TRANS 3016: Lock claimed. Processing...
+22862: TRANS 3016: Trying to claim lock of resource 5 at server 1
+22863: Waiting for other transactions, sending probe messages to them
+22863: TRANS 3016: Lock claimed. Processing...
+22959: TRANS 3016: Trying to claim lock of resource 2 at server 3
+22960: TRANS 3016: Lock claimed. Processing...
+23040: TRANS 3016: Trying to claim lock of resource 7 at server 2
+23040: Waiting for other transactions, sending probe messages to them
+23041: TRANS 3016: Lock claimed. Processing...
+23137: TRANS 3016: Trying to claim lock of resource 8 at server 2
+23138: Waiting for other transactions, sending probe messages to them
+23202: Waiting for other transactions, sending probe messages to them
+23242: Waiting for other transactions, sending probe messages to them
+23723: TRANS 3016: Lock claimed. Processing...
+23754: TRANS 3016: Trying to claim lock of resource 1 at server 2
+23755: Waiting for other transactions, sending probe messages to them
+23755: TRANS 3016: Lock claimed. Processing...
+23778: TRANS 3016: Committing transaction 3016.
+23779: TRANS 3016: Unlocked resource 0 at server 1
+23779: TRANS 3016: Unlocked resource 0 at server 3
+23779: TRANS 3016: Unlocked resource 6 at server 3
+23780: TRANS 3016: Unlocked resource 5 at server 1
+23780: TRANS 3016: Unlocked resource 2 at server 3
+23780: TRANS 3016: Unlocked resource 7 at server 2
+23781: TRANS 3016: Unlocked resource 8 at server 2
+23782: TRANS 3016: Unlocked resource 1 at server 2
+23782: TRANS 3016: Transaction 3016 committed.
+23782: Transaction 3016 ended.
+23963: Transaction 3017 arrived.
+23963: TRANS 3017: Starting transaction 3017.
+23963: TRANS 3017: Trying to claim lock of resource 1 at server 2
+23964: Waiting for other transactions, sending probe messages to them
+23964: TRANS 3017: Lock claimed. Processing...
+23993: TRANS 3017: Trying to claim lock of resource 7 at server 3
+23994: Waiting for other transactions, sending probe messages to them
+23994: TRANS 3017: Lock claimed. Processing...
+24058: TRANS 3017: Trying to claim lock of resource 7 at server 2
+24058: Waiting for other transactions, sending probe messages to them
+24059: TRANS 3017: Lock claimed. Processing...
+24141: TRANS 3017: Trying to claim lock of resource 9 at server 3
+24141: TRANS 3017: Lock claimed. Processing...
+24210: TRANS 3017: Trying to claim lock of resource 6 at server 1
+24210: Waiting for other transactions, sending probe messages to them
+24211: TRANS 3017: Lock claimed. Processing...
+24273: TRANS 3017: Trying to claim lock of resource 4 at server 3
+24273: TRANS 3017: Lock claimed. Processing...
+24357: TRANS 3017: Committing transaction 3017.
+24358: TRANS 3017: Unlocked resource 1 at server 2
+24358: TRANS 3017: Unlocked resource 7 at server 3
+24359: TRANS 3017: Unlocked resource 7 at server 2
+24359: TRANS 3017: Unlocked resource 9 at server 3
+24360: TRANS 3017: Unlocked resource 6 at server 1
+24360: TRANS 3017: Unlocked resource 4 at server 3
+24360: TRANS 3017: Transaction 3017 committed.
+24361: Transaction 3017 ended.
+24512: Transaction 3018 arrived.
+24512: TRANS 3018: Starting transaction 3018.
+24512: TRANS 3018: Trying to claim lock of resource 3 at server 3
+24513: TRANS 3018: Lock claimed. Processing...
+24582: TRANS 3018: Trying to claim lock of resource 8 at server 1
+24582: Waiting for other transactions, sending probe messages to them
+24583: TRANS 3018: Lock claimed. Processing...
+24672: TRANS 3018: Trying to claim lock of resource 1 at server 1
+24672: Waiting for other transactions, sending probe messages to them
+24958: Waiting for other transactions, sending probe messages to them
+25395: Waiting for other transactions, sending probe messages to them
+25508: Waiting for other transactions, sending probe messages to them
+25557: TRANS 3018: Aborting transaction 3018.
+25558: TRANS 3018: Unlocked resource 3 at server 3
+25558: TRANS 3018: Unlocked resource 8 at server 1
+25559: TRANS 3018: Transaction 3018 aborted.
+25559: Transaction 3018 ended.
+25802: Transaction 3019 arrived.
+25803: TRANS 3019: Starting transaction 3019.
+25803: TRANS 3019: Trying to claim lock of resource 7 at server 2
+25803: Waiting for other transactions, sending probe messages to them
+25823: TRANS 3019: Aborting transaction 3019.
+25823: TRANS 3019: Transaction 3019 aborted.
+25823: Transaction 3019 ended.
+25946: Transaction 3020 arrived.
+25946: TRANS 3020: Starting transaction 3020.
+25947: TRANS 3020: Trying to claim lock of resource 9 at server 1
+25947: Waiting for other transactions, sending probe messages to them
+25948: TRANS 3020: Lock claimed. Processing...
+25994: TRANS 3020: Trying to claim lock of resource 3 at server 1
+25995: Waiting for other transactions, sending probe messages to them
+25995: TRANS 3020: Lock claimed. Processing...
+26059: TRANS 3020: Trying to claim lock of resource 6 at server 2
+26059: Waiting for other transactions, sending probe messages to them
+26060: TRANS 3020: Lock claimed. Processing...
+26141: TRANS 3020: Trying to claim lock of resource 5 at server 3
+26141: TRANS 3020: Lock claimed. Processing...
+26174: TRANS 3020: Committing transaction 3020.
+26175: TRANS 3020: Unlocked resource 9 at server 1
+26176: TRANS 3020: Unlocked resource 3 at server 1
+26177: TRANS 3020: Unlocked resource 6 at server 2
+26177: TRANS 3020: Unlocked resource 5 at server 3
+26177: TRANS 3020: Transaction 3020 committed.
+26177: Transaction 3020 ended.
+26261: Transaction 3021 arrived.
+26261: TRANS 3021: Starting transaction 3021.
+26261: TRANS 3021: Trying to claim lock of resource 0 at server 2
+26261: Waiting for other transactions, sending probe messages to them
+26262: TRANS 3021: Lock claimed. Processing...
+26341: TRANS 3021: Trying to claim lock of resource 1 at server 3
+26342: TRANS 3021: Lock claimed. Processing...
+26439: TRANS 3021: Trying to claim lock of resource 6 at server 1
+26439: Waiting for other transactions, sending probe messages to them
+26440: TRANS 3021: Lock claimed. Processing...
+26482: TRANS 3021: Trying to claim lock of resource 3 at server 1
+26483: Waiting for other transactions, sending probe messages to them
+26483: TRANS 3021: Lock claimed. Processing...
+26585: TRANS 3021: Committing transaction 3021.
+26586: TRANS 3021: Unlocked resource 0 at server 2
+26586: TRANS 3021: Unlocked resource 1 at server 3
+26587: TRANS 3021: Unlocked resource 6 at server 1
+26587: TRANS 3021: Unlocked resource 3 at server 1
+26587: TRANS 3021: Transaction 3021 committed.
+26588: Transaction 3021 ended.
+26691: Transaction 3022 arrived.
+26691: TRANS 3022: Starting transaction 3022.
+26691: TRANS 3022: Trying to claim lock of resource 1 at server 3
+26692: TRANS 3022: Lock claimed. Processing...
+26767: TRANS 3022: Trying to claim lock of resource 4 at server 1
+26768: Waiting for other transactions, sending probe messages to them
+26768: TRANS 3022: Lock claimed. Processing...
+26821: TRANS 3022: Trying to claim lock of resource 1 at server 1
+26822: Waiting for other transactions, sending probe messages to them
+26822: TRANS 3022: Lock claimed. Processing...
+26868: TRANS 3022: Trying to claim lock of resource 0 at server 2
+26868: Waiting for other transactions, sending probe messages to them
+26929: Waiting for other transactions, sending probe messages to them
+26941: TRANS 3022: Lock claimed. Processing...
+26983: TRANS 3022: Trying to claim lock of resource 7 at server 2
+26983: Waiting for other transactions, sending probe messages to them
+26984: TRANS 3022: Lock claimed. Processing...
+27037: TRANS 3022: Trying to claim lock of resource 3 at server 3
+27038: Waiting for other transactions, sending probe messages to them
+27038: TRANS 3022: Dead lock detected[3022, 3022]
+27040: Size of waitForGraph: 2
+27040: Trying to resolve deadlock 3022
+27040: TRANS 3022: Aborting transaction 3022.
+27041: TRANS 3022: Unlocked resource 1 at server 3
+27041: TRANS 3022: Unlocked resource 4 at server 1
+27042: TRANS 3022: Unlocked resource 1 at server 1
+27043: TRANS 3022: Unlocked resource 0 at server 2
+27044: TRANS 3022: Unlocked resource 7 at server 2
+27044: TRANS 3022: Transaction 3022 aborted.
+27048: Transaction 3022 ended.
+27291: Transaction 3023 arrived.
+27292: TRANS 3023: Starting transaction 3023.
+27292: TRANS 3023: Trying to claim lock of resource 2 at server 3
+27292: TRANS 3023: Lock claimed. Processing...
+27359: TRANS 3023: Trying to claim lock of resource 5 at server 3
+27359: TRANS 3023: Lock claimed. Processing...
+27403: TRANS 3023: Trying to claim lock of resource 6 at server 3
+27403: TRANS 3023: Lock claimed. Processing...
+27477: TRANS 3023: Trying to claim lock of resource 4 at server 3
+27478: TRANS 3023: Lock claimed. Processing...
+27569: TRANS 3023: Trying to claim lock of resource 4 at server 2
+27569: Waiting for other transactions, sending probe messages to them
+27570: TRANS 3023: Lock claimed. Processing...
+27636: TRANS 3023: Trying to claim lock of resource 0 at server 2
+27636: Waiting for other transactions, sending probe messages to them
+27637: TRANS 3023: Lock claimed. Processing...
+27723: TRANS 3023: Trying to claim lock of resource 8 at server 3
+27723: TRANS 3023: Lock claimed. Processing...
+27792: TRANS 3023: Trying to claim lock of resource 7 at server 2
+27792: Waiting for other transactions, sending probe messages to them
+27793: TRANS 3023: Lock claimed. Processing...
+27845: TRANS 3023: Trying to claim lock of resource 9 at server 2
+27845: Waiting for other transactions, sending probe messages to them
+27846: TRANS 3023: Lock claimed. Processing...
+27902: TRANS 3023: Trying to claim lock of resource 9 at server 3
+27903: TRANS 3023: Lock claimed. Processing...
+27997: TRANS 3023: Committing transaction 3023.
+27997: TRANS 3023: Unlocked resource 2 at server 3
+27998: TRANS 3023: Unlocked resource 5 at server 3
+27998: TRANS 3023: Unlocked resource 6 at server 3
+27998: TRANS 3023: Unlocked resource 4 at server 3
+27999: TRANS 3023: Unlocked resource 4 at server 2
+27999: TRANS 3023: Unlocked resource 0 at server 2
+28000: TRANS 3023: Unlocked resource 8 at server 3
+28000: TRANS 3023: Unlocked resource 7 at server 2
+28001: TRANS 3023: Unlocked resource 9 at server 2
+28001: TRANS 3023: Unlocked resource 9 at server 3
+28001: TRANS 3023: Transaction 3023 committed.
+28001: Transaction 3023 ended.
+28259: Transaction 3024 arrived.
+28259: TRANS 3024: Starting transaction 3024.
+28260: TRANS 3024: Trying to claim lock of resource 5 at server 1
+28260: Waiting for other transactions, sending probe messages to them
+28261: TRANS 3024: Lock claimed. Processing...
+28290: TRANS 3024: Trying to claim lock of resource 0 at server 3
+28291: TRANS 3024: Lock claimed. Processing...
+28323: TRANS 3024: Trying to claim lock of resource 5 at server 3
+28323: TRANS 3024: Lock claimed. Processing...
+28422: TRANS 3024: Trying to claim lock of resource 2 at server 1
+28422: Waiting for other transactions, sending probe messages to them
+28423: TRANS 3024: Lock claimed. Processing...
+28513: TRANS 3024: Trying to claim lock of resource 8 at server 1
+28513: Waiting for other transactions, sending probe messages to them
+28514: TRANS 3024: Lock claimed. Processing...
+28596: TRANS 3024: Trying to claim lock of resource 6 at server 3
+28597: TRANS 3024: Lock claimed. Processing...
+28654: TRANS 3024: Committing transaction 3024.
+28655: TRANS 3024: Unlocked resource 5 at server 1
+28655: TRANS 3024: Unlocked resource 0 at server 3
+28655: TRANS 3024: Unlocked resource 5 at server 3
+28656: TRANS 3024: Unlocked resource 2 at server 1
+28657: TRANS 3024: Unlocked resource 8 at server 1
+28657: TRANS 3024: Unlocked resource 6 at server 3
+28657: TRANS 3024: Transaction 3024 committed.
+28657: Transaction 3024 ended.
+28847: Transaction 3025 arrived.
+28847: TRANS 3025: Starting transaction 3025.
+28847: TRANS 3025: Trying to claim lock of resource 6 at server 3
+28848: TRANS 3025: Lock claimed. Processing...
+28875: TRANS 3025: Trying to claim lock of resource 7 at server 1
+28876: Waiting for other transactions, sending probe messages to them
+28877: TRANS 3025: Lock claimed. Processing...
+28963: TRANS 3025: Trying to claim lock of resource 0 at server 2
+28963: Waiting for other transactions, sending probe messages to them
+28964: TRANS 3025: Lock claimed. Processing...
+29046: TRANS 3025: Trying to claim lock of resource 3 at server 3
+29046: TRANS 3025: Lock claimed. Processing...
+29129: TRANS 3025: Trying to claim lock of resource 1 at server 2
+29129: Waiting for other transactions, sending probe messages to them
+29130: TRANS 3025: Lock claimed. Processing...
+29180: TRANS 3025: Trying to claim lock of resource 1 at server 3
+29180: TRANS 3025: Lock claimed. Processing...
+29204: TRANS 3025: Trying to claim lock of resource 2 at server 3
+29205: TRANS 3025: Lock claimed. Processing...
+29232: TRANS 3025: Trying to claim lock of resource 5 at server 3
+29232: TRANS 3025: Lock claimed. Processing...
+29319: TRANS 3025: Trying to claim lock of resource 3 at server 2
+29319: Waiting for other transactions, sending probe messages to them
+29320: TRANS 3025: Lock claimed. Processing...
+29377: TRANS 3025: Committing transaction 3025.
+29377: TRANS 3025: Unlocked resource 6 at server 3
+29378: TRANS 3025: Unlocked resource 7 at server 1
+29379: TRANS 3025: Unlocked resource 0 at server 2
+29379: TRANS 3025: Unlocked resource 3 at server 3
+29379: TRANS 3025: Unlocked resource 1 at server 2
+29380: TRANS 3025: Unlocked resource 1 at server 3
+29380: TRANS 3025: Unlocked resource 2 at server 3
+29380: TRANS 3025: Unlocked resource 5 at server 3
+29381: TRANS 3025: Unlocked resource 3 at server 2
+29381: TRANS 3025: Transaction 3025 committed.
+29381: Transaction 3025 ended.
+29487: Transaction 3026 arrived.
+29487: TRANS 3026: Starting transaction 3026.
+29487: TRANS 3026: Trying to claim lock of resource 2 at server 1
+29488: Waiting for other transactions, sending probe messages to them
+29488: TRANS 3026: Lock claimed. Processing...
+29532: TRANS 3026: Trying to claim lock of resource 3 at server 3
+29532: TRANS 3026: Lock claimed. Processing...
+29577: TRANS 3026: Trying to claim lock of resource 6 at server 1
+29578: Waiting for other transactions, sending probe messages to them
+29578: TRANS 3026: Lock claimed. Processing...
+29608: TRANS 3026: Trying to claim lock of resource 2 at server 3
+29609: TRANS 3026: Lock claimed. Processing...
+29706: TRANS 3026: Trying to claim lock of resource 0 at server 2
+29707: Waiting for other transactions, sending probe messages to them
+29707: TRANS 3026: Lock claimed. Processing...
+29786: TRANS 3026: Committing transaction 3026.
+29787: TRANS 3026: Unlocked resource 2 at server 1
+29787: TRANS 3026: Unlocked resource 3 at server 3
+29788: TRANS 3026: Unlocked resource 6 at server 1
+29788: TRANS 3026: Unlocked resource 2 at server 3
+29789: TRANS 3026: Unlocked resource 0 at server 2
+29789: TRANS 3026: Transaction 3026 committed.
+29789: Transaction 3026 ended.
+29905: Transaction 3027 arrived.
+29905: TRANS 3027: Starting transaction 3027.
+29905: TRANS 3027: Trying to claim lock of resource 9 at server 3
+29905: TRANS 3027: Lock claimed. Processing...
+29956: TRANS 3027: Trying to claim lock of resource 7 at server 3
+29956: TRANS 3027: Lock claimed. Processing...
+30000: TRANS 3027: Trying to claim lock of resource 5 at server 2
+30000: Waiting for other transactions, sending probe messages to them
+30005: TRANS 3027: Dead lock detected[3027, 2038, 3027]
+30006: Size of waitForGraph: 3
+30006: Trying to resolve deadlock 3027
+30009: TRANS 3027: Aborting transaction 3027.
+30009: TRANS 3027: Unlocked resource 9 at server 3
+30010: TRANS 3027: Unlocked resource 7 at server 3
+30010: TRANS 3027: Transaction 3027 aborted.
+30015: Transaction 3027 ended.
+30282: Transaction 3028 arrived.
+30283: TRANS 3028: Starting transaction 3028.
+30283: TRANS 3028: Trying to claim lock of resource 7 at server 1
+30283: Waiting for other transactions, sending probe messages to them
+30284: TRANS 3028: Lock claimed. Processing...
+30331: TRANS 3028: Trying to claim lock of resource 3 at server 2
+30331: Waiting for other transactions, sending probe messages to them
+30332: TRANS 3028: Lock claimed. Processing...
+30393: TRANS 3028: Trying to claim lock of resource 0 at server 1
+30393: Waiting for other transactions, sending probe messages to them
+30394: TRANS 3028: Lock claimed. Processing...
+30446: TRANS 3028: Committing transaction 3028.
+30447: TRANS 3028: Unlocked resource 7 at server 1
+30448: TRANS 3028: Unlocked resource 3 at server 2
+30448: TRANS 3028: Unlocked resource 0 at server 1
+30449: TRANS 3028: Transaction 3028 committed.
+30449: Transaction 3028 ended.
+30509: Transaction 3029 arrived.
+30509: TRANS 3029: Starting transaction 3029.
+30509: TRANS 3029: Trying to claim lock of resource 5 at server 3
+30509: TRANS 3029: Lock claimed. Processing...
+30584: TRANS 3029: Trying to claim lock of resource 9 at server 2
+30585: Waiting for other transactions, sending probe messages to them
+30585: TRANS 3029: Lock claimed. Processing...
+30619: TRANS 3029: Trying to claim lock of resource 7 at server 1
+30620: Waiting for other transactions, sending probe messages to them
+30620: TRANS 3029: Lock claimed. Processing...
+30680: TRANS 3029: Trying to claim lock of resource 6 at server 2
+30681: Waiting for other transactions, sending probe messages to them
+30681: TRANS 3029: Lock claimed. Processing...
+30740: TRANS 3029: Trying to claim lock of resource 3 at server 2
+30741: Waiting for other transactions, sending probe messages to them
+30742: TRANS 3029: Lock claimed. Processing...
+30776: TRANS 3029: Trying to claim lock of resource 2 at server 3
+30776: TRANS 3029: Lock claimed. Processing...
+30877: TRANS 3029: Trying to claim lock of resource 9 at server 3
+30877: TRANS 3029: Lock claimed. Processing...
+30923: TRANS 3029: Trying to claim lock of resource 0 at server 3
+30923: TRANS 3029: Lock claimed. Processing...
+31020: TRANS 3029: Committing transaction 3029.
+31020: TRANS 3029: Unlocked resource 5 at server 3
+31021: TRANS 3029: Unlocked resource 9 at server 2
+31021: TRANS 3029: Unlocked resource 7 at server 1
+31022: TRANS 3029: Unlocked resource 6 at server 2
+31023: TRANS 3029: Unlocked resource 3 at server 2
+31023: TRANS 3029: Unlocked resource 2 at server 3
+31023: TRANS 3029: Unlocked resource 9 at server 3
+31023: TRANS 3029: Unlocked resource 0 at server 3
+31023: TRANS 3029: Transaction 3029 committed.
+31024: Transaction 3029 ended.
+31142: Transaction 3030 arrived.
+31142: TRANS 3030: Starting transaction 3030.
+31142: TRANS 3030: Trying to claim lock of resource 0 at server 2
+31143: TRANS 3030: Lock claimed. Processing...
+31146: Waiting for other transactions, sending probe messages to them
+31197: TRANS 3030: Trying to claim lock of resource 5 at server 3
+31197: Waiting for other transactions, sending probe messages to them
+31198: TRANS 3030: Dead lock detected[3030, 3030]
+31200: Size of waitForGraph: 2
+31200: Trying to resolve deadlock 3030
+31229: Waiting for other transactions, sending probe messages to them
+31229: TRANS 3030: Dead lock detected[2040, 3030, 3030]
+31229: Size of waitForGraph: 3
+31229: Trying to resolve deadlock 3030
+31230: TRANS 3030: Aborting transaction 3030.
+31230: TRANS 3030: Unlocked resource 0 at server 2
+31230: TRANS 3030: Transaction 3030 aborted.
+31230: Transaction 3030 ended.
+31307: Transaction 3031 arrived.
+31307: TRANS 3031: Starting transaction 3031.
+31307: TRANS 3031: Trying to claim lock of resource 5 at server 1
+31307: Waiting for other transactions, sending probe messages to them
+31308: TRANS 3031: Lock claimed. Processing...
+31333: TRANS 3031: Trying to claim lock of resource 9 at server 3
+31334: TRANS 3031: Lock claimed. Processing...
+31409: TRANS 3031: Trying to claim lock of resource 1 at server 1
+31409: Waiting for other transactions, sending probe messages to them
+31410: Waiting for other transactions, sending probe messages to them
+31410: TRANS 3031: Lock claimed. Processing...
+31455: TRANS 3031: Trying to claim lock of resource 4 at server 3
+31456: TRANS 3031: Lock claimed. Processing...
+31545: TRANS 3031: Trying to claim lock of resource 2 at server 1
+31545: Waiting for other transactions, sending probe messages to them
+31547: TRANS 3031: Lock claimed. Processing...
+31637: TRANS 3031: Committing transaction 3031.
+31638: TRANS 3031: Unlocked resource 5 at server 1
+31638: TRANS 3031: Unlocked resource 9 at server 3
+31639: TRANS 3031: Unlocked resource 1 at server 1
+31639: TRANS 3031: Unlocked resource 4 at server 3
+31640: TRANS 3031: Unlocked resource 2 at server 1
+31640: TRANS 3031: Transaction 3031 committed.
+31640: Transaction 3031 ended.
+31767: Transaction 3032 arrived.
+31768: TRANS 3032: Starting transaction 3032.
+31768: TRANS 3032: Trying to claim lock of resource 9 at server 3
+31769: TRANS 3032: Lock claimed. Processing...
+31814: TRANS 3032: Trying to claim lock of resource 3 at server 3
+31814: TRANS 3032: Lock claimed. Processing...
+31873: TRANS 3032: Trying to claim lock of resource 7 at server 2
+31874: Waiting for other transactions, sending probe messages to them
+31874: TRANS 3032: Lock claimed. Processing...
+31963: TRANS 3032: Trying to claim lock of resource 7 at server 1
+31963: Waiting for other transactions, sending probe messages to them
+31966: TRANS 3032: Dead lock detected[3032, 1034, 3032]
+31966: Size of waitForGraph: 3
+31967: Trying to resolve deadlock 3032
+31968: TRANS 3032: Aborting transaction 3032.
+31968: TRANS 3032: Unlocked resource 9 at server 3
+31969: TRANS 3032: Unlocked resource 3 at server 3
+31970: TRANS 3032: Unlocked resource 7 at server 2
+31970: TRANS 3032: Transaction 3032 aborted.
+31975: Transaction 3032 ended.
+32235: Transaction 3033 arrived.
+32235: TRANS 3033: Starting transaction 3033.
+32235: TRANS 3033: Trying to claim lock of resource 2 at server 2
+32235: Waiting for other transactions, sending probe messages to them
+32236: TRANS 3033: Lock claimed. Processing...
+32308: TRANS 3033: Trying to claim lock of resource 6 at server 1
+32308: Waiting for other transactions, sending probe messages to them
+32309: TRANS 3033: Lock claimed. Processing...
+32341: TRANS 3033: Trying to claim lock of resource 7 at server 3
+32341: Waiting for other transactions, sending probe messages to them
+32342: TRANS 3033: Dead lock detected[3033, 3033]
+32348: Size of waitForGraph: 2
+32348: Trying to resolve deadlock 3033
+32348: TRANS 3033: Aborting transaction 3033.
+32350: TRANS 3033: Unlocked resource 2 at server 2
+32351: TRANS 3033: Unlocked resource 6 at server 1
+32351: TRANS 3033: Transaction 3033 aborted.
+32357: Transaction 3033 ended.
+32465: Transaction 3034 arrived.
+32465: TRANS 3034: Starting transaction 3034.
+32465: TRANS 3034: Trying to claim lock of resource 0 at server 3
+32466: TRANS 3034: Lock claimed. Processing...
+32534: TRANS 3034: Trying to claim lock of resource 5 at server 2
+32534: Waiting for other transactions, sending probe messages to them
+32535: TRANS 3034: Lock claimed. Processing...
+32632: TRANS 3034: Trying to claim lock of resource 4 at server 1
+32632: Waiting for other transactions, sending probe messages to them
+32633: TRANS 3034: Lock claimed. Processing...
+32715: TRANS 3034: Trying to claim lock of resource 1 at server 1
+32715: Waiting for other transactions, sending probe messages to them
+32716: TRANS 3034: Lock claimed. Processing...
+32788: TRANS 3034: Trying to claim lock of resource 1 at server 3
+32788: TRANS 3034: Lock claimed. Processing...
+32882: TRANS 3034: Committing transaction 3034.
+32882: TRANS 3034: Unlocked resource 0 at server 3
+32883: TRANS 3034: Unlocked resource 5 at server 2
+32884: TRANS 3034: Unlocked resource 4 at server 1
+32885: TRANS 3034: Unlocked resource 1 at server 1
+32885: TRANS 3034: Unlocked resource 1 at server 3
+32885: TRANS 3034: Transaction 3034 committed.
+32885: Transaction 3034 ended.
+33021: Transaction 3035 arrived.
+33022: TRANS 3035: Starting transaction 3035.
+33022: TRANS 3035: Trying to claim lock of resource 6 at server 3
+33022: Waiting for other transactions, sending probe messages to them
+33023: TRANS 3035: Dead lock detected[3035, 3035]
+33023: Size of waitForGraph: 2
+33023: Trying to resolve deadlock 3035
+33023: TRANS 3035: Aborting transaction 3035.
+33023: TRANS 3035: Transaction 3035 aborted.
+33024: Transaction 3035 ended.
+33227: Transaction 3036 arrived.
+33227: TRANS 3036: Starting transaction 3036.
+33227: TRANS 3036: Trying to claim lock of resource 6 at server 3
+33227: TRANS 3036: Lock claimed. Processing...
+33251: TRANS 3036: Trying to claim lock of resource 3 at server 2
+33252: Waiting for other transactions, sending probe messages to them
+33252: TRANS 3036: Lock claimed. Processing...
+33294: TRANS 3036: Trying to claim lock of resource 4 at server 3
+33294: TRANS 3036: Lock claimed. Processing...
+33374: TRANS 3036: Trying to claim lock of resource 1 at server 2
+33375: Waiting for other transactions, sending probe messages to them
+33376: TRANS 3036: Lock claimed. Processing...
+33455: TRANS 3036: Trying to claim lock of resource 6 at server 2
+33456: Waiting for other transactions, sending probe messages to them
+33456: TRANS 3036: Lock claimed. Processing...
+33547: TRANS 3036: Trying to claim lock of resource 7 at server 1
+33548: Waiting for other transactions, sending probe messages to them
+33548: TRANS 3036: Lock claimed. Processing...
+33639: TRANS 3036: Trying to claim lock of resource 8 at server 1
+33640: Waiting for other transactions, sending probe messages to them
+33700: Waiting for other transactions, sending probe messages to them
+33811: Waiting for other transactions, sending probe messages to them
+33819: TRANS 3036: Lock claimed. Processing...
+33871: TRANS 3036: Trying to claim lock of resource 2 at server 3
+33872: TRANS 3036: Lock claimed. Processing...
+33966: TRANS 3036: Committing transaction 3036.
+33966: TRANS 3036: Unlocked resource 6 at server 3
+33967: TRANS 3036: Unlocked resource 3 at server 2
+33967: TRANS 3036: Unlocked resource 4 at server 3
+33968: TRANS 3036: Unlocked resource 1 at server 2
+33968: TRANS 3036: Unlocked resource 6 at server 2
+33969: TRANS 3036: Unlocked resource 7 at server 1
+33970: TRANS 3036: Unlocked resource 8 at server 1
+33970: TRANS 3036: Unlocked resource 2 at server 3
+33970: TRANS 3036: Transaction 3036 committed.
+33970: Transaction 3036 ended.
+34272: Transaction 3037 arrived.
+34272: TRANS 3037: Starting transaction 3037.
+34273: TRANS 3037: Trying to claim lock of resource 2 at server 2
+34274: TRANS 3037: Lock claimed. Processing...
+34275: Waiting for other transactions, sending probe messages to them
+34314: TRANS 3037: Trying to claim lock of resource 6 at server 2
+34315: Waiting for other transactions, sending probe messages to them
+34316: TRANS 3037: Lock claimed. Processing...
+34346: TRANS 3037: Trying to claim lock of resource 9 at server 1
+34346: Waiting for other transactions, sending probe messages to them
+34348: TRANS 3037: Dead lock detected[3037, 1037, 3037]
+34350: Size of waitForGraph: 3
+34351: Trying to resolve deadlock 3037
+34353: TRANS 3037: Aborting transaction 3037.
+34354: TRANS 3037: Unlocked resource 2 at server 2
+34354: TRANS 3037: Unlocked resource 6 at server 2
+34354: TRANS 3037: Transaction 3037 aborted.
+34357: Transaction 3037 ended.
+34609: Transaction 3038 arrived.
+34609: TRANS 3038: Starting transaction 3038.
+34610: TRANS 3038: Trying to claim lock of resource 8 at server 3
+34610: TRANS 3038: Lock claimed. Processing...
+34655: TRANS 3038: Trying to claim lock of resource 3 at server 2
+34656: Waiting for other transactions, sending probe messages to them
+34656: TRANS 3038: Lock claimed. Processing...
+34740: TRANS 3038: Trying to claim lock of resource 5 at server 2
+34740: Waiting for other transactions, sending probe messages to them
+34741: TRANS 3038: Lock claimed. Processing...
+34773: TRANS 3038: Trying to claim lock of resource 9 at server 1
+34773: Waiting for other transactions, sending probe messages to them
+34775: TRANS 3038: Lock claimed. Processing...
+34832: TRANS 3038: Trying to claim lock of resource 4 at server 2
+34832: Waiting for other transactions, sending probe messages to them
+34833: TRANS 3038: Lock claimed. Processing...
+34930: TRANS 3038: Committing transaction 3038.
+34930: TRANS 3038: Unlocked resource 8 at server 3
+34931: TRANS 3038: Unlocked resource 3 at server 2
+34932: TRANS 3038: Unlocked resource 5 at server 2
+34933: TRANS 3038: Unlocked resource 9 at server 1
+34933: TRANS 3038: Unlocked resource 4 at server 2
+34933: TRANS 3038: Transaction 3038 committed.
+34934: Transaction 3038 ended.
+35031: Transaction 3039 arrived.
+35031: TRANS 3039: Starting transaction 3039.
+35031: TRANS 3039: Trying to claim lock of resource 6 at server 1
+35032: Waiting for other transactions, sending probe messages to them
+35032: TRANS 3039: Lock claimed. Processing...
+35112: TRANS 3039: Trying to claim lock of resource 2 at server 2
+35113: Waiting for other transactions, sending probe messages to them
+35153: Waiting for other transactions, sending probe messages to them
+35236: TRANS 3039: Lock claimed. Processing...
+35276: TRANS 3039: Trying to claim lock of resource 7 at server 2
+35277: Waiting for other transactions, sending probe messages to them
+35277: TRANS 3039: Lock claimed. Processing...
+35360: TRANS 3039: Trying to claim lock of resource 8 at server 3
+35360: TRANS 3039: Lock claimed. Processing...
+35413: TRANS 3039: Trying to claim lock of resource 5 at server 2
+35413: Waiting for other transactions, sending probe messages to them
+35414: TRANS 3039: Lock claimed. Processing...
+35463: TRANS 3039: Trying to claim lock of resource 1 at server 3
+35464: TRANS 3039: Lock claimed. Processing...
+35539: TRANS 3039: Trying to claim lock of resource 4 at server 3
+35540: TRANS 3039: Lock claimed. Processing...
+35626: TRANS 3039: Trying to claim lock of resource 6 at server 2
+35627: Waiting for other transactions, sending probe messages to them
+35627: TRANS 3039: Lock claimed. Processing...
+35673: TRANS 3039: Trying to claim lock of resource 3 at server 1
+35673: Waiting for other transactions, sending probe messages to them
+35674: TRANS 3039: Lock claimed. Processing...
+35712: TRANS 3039: Committing transaction 3039.
+35713: TRANS 3039: Unlocked resource 6 at server 1
+35714: TRANS 3039: Unlocked resource 2 at server 2
+35714: TRANS 3039: Unlocked resource 7 at server 2
+35714: TRANS 3039: Unlocked resource 8 at server 3
+35715: TRANS 3039: Unlocked resource 5 at server 2
+35715: TRANS 3039: Unlocked resource 1 at server 3
+35715: TRANS 3039: Unlocked resource 4 at server 3
+35716: TRANS 3039: Unlocked resource 6 at server 2
+35717: TRANS 3039: Unlocked resource 3 at server 1
+35717: TRANS 3039: Transaction 3039 committed.
+35717: Transaction 3039 ended.
+35776: Transaction 3040 arrived.
+35776: TRANS 3040: Starting transaction 3040.
+35777: TRANS 3040: Trying to claim lock of resource 0 at server 1
+35777: Waiting for other transactions, sending probe messages to them
+35778: TRANS 3040: Lock claimed. Processing...
+35857: TRANS 3040: Trying to claim lock of resource 3 at server 1
+35857: Waiting for other transactions, sending probe messages to them
+35858: TRANS 3040: Lock claimed. Processing...
+35949: TRANS 3040: Trying to claim lock of resource 4 at server 1
+35950: Waiting for other transactions, sending probe messages to them
+36228: Waiting for other transactions, sending probe messages to them
+36286: Waiting for other transactions, sending probe messages to them
+36357: TRANS 3040: Lock claimed. Processing...
+36395: TRANS 3040: Trying to claim lock of resource 6 at server 2
+36395: Waiting for other transactions, sending probe messages to them
+36396: TRANS 3040: Lock claimed. Processing...
+36433: TRANS 3040: Trying to claim lock of resource 2 at server 1
+36448: Waiting for other transactions, sending probe messages to them
+36448: TRANS 3040: Lock claimed. Processing...
+36497: TRANS 3040: Trying to claim lock of resource 2 at server 2
+36498: Waiting for other transactions, sending probe messages to them
+36498: TRANS 3040: Lock claimed. Processing...
+36531: TRANS 3040: Trying to claim lock of resource 6 at server 3
+36531: TRANS 3040: Lock claimed. Processing...
+36603: TRANS 3040: Trying to claim lock of resource 9 at server 3
+36604: TRANS 3040: Lock claimed. Processing...
+36703: TRANS 3040: Trying to claim lock of resource 8 at server 2
+36704: Waiting for other transactions, sending probe messages to them
+36704: TRANS 3040: Lock claimed. Processing...
+36794: TRANS 3040: Trying to claim lock of resource 7 at server 1
+36794: Waiting for other transactions, sending probe messages to them
+36795: TRANS 3040: Lock claimed. Processing...
+36892: TRANS 3040: Committing transaction 3040.
+36893: TRANS 3040: Unlocked resource 0 at server 1
+36893: TRANS 3040: Unlocked resource 3 at server 1
+36894: TRANS 3040: Unlocked resource 4 at server 1
+36895: TRANS 3040: Unlocked resource 6 at server 2
+36895: TRANS 3040: Unlocked resource 2 at server 1
+36896: TRANS 3040: Unlocked resource 2 at server 2
+36896: TRANS 3040: Unlocked resource 6 at server 3
+36896: TRANS 3040: Unlocked resource 9 at server 3
+36897: TRANS 3040: Unlocked resource 8 at server 2
+36898: TRANS 3040: Unlocked resource 7 at server 1
+36898: TRANS 3040: Transaction 3040 committed.
+36898: Transaction 3040 ended.
+37092: Transaction 3041 arrived.
+37092: TRANS 3041: Starting transaction 3041.
+37092: TRANS 3041: Trying to claim lock of resource 6 at server 1
+37093: Waiting for other transactions, sending probe messages to them
+37094: TRANS 3041: Lock claimed. Processing...
+37115: TRANS 3041: Trying to claim lock of resource 9 at server 2
+37116: Waiting for other transactions, sending probe messages to them
+37116: TRANS 3041: Lock claimed. Processing...
+37168: TRANS 3041: Trying to claim lock of resource 2 at server 2
+37168: Waiting for other transactions, sending probe messages to them
+37169: TRANS 3041: Lock claimed. Processing...
+37222: TRANS 3041: Trying to claim lock of resource 5 at server 3
+37222: TRANS 3041: Lock claimed. Processing...
+37324: TRANS 3041: Trying to claim lock of resource 0 at server 2
+37324: Waiting for other transactions, sending probe messages to them
+37325: TRANS 3041: Lock claimed. Processing...
+37368: TRANS 3041: Trying to claim lock of resource 5 at server 1
+37369: Waiting for other transactions, sending probe messages to them
+37370: TRANS 3041: Lock claimed. Processing...
+37461: TRANS 3041: Trying to claim lock of resource 5 at server 2
+37461: Waiting for other transactions, sending probe messages to them
+37462: TRANS 3041: Lock claimed. Processing...
+37510: TRANS 3041: Trying to claim lock of resource 3 at server 3
+37511: Waiting for other transactions, sending probe messages to them
+37511: TRANS 3041: Dead lock detected[3041, 3041]
+37511: Size of waitForGraph: 2
+37513: Trying to resolve deadlock 3041
+37514: TRANS 3041: Aborting transaction 3041.
+37515: TRANS 3041: Unlocked resource 6 at server 1
+37516: TRANS 3041: Unlocked resource 9 at server 2
+37517: TRANS 3041: Unlocked resource 2 at server 2
+37517: TRANS 3041: Unlocked resource 5 at server 3
+37517: TRANS 3041: Unlocked resource 0 at server 2
+37518: TRANS 3041: Unlocked resource 5 at server 1
+37518: TRANS 3041: Unlocked resource 5 at server 2
+37519: TRANS 3041: Transaction 3041 aborted.
+37521: Transaction 3041 ended.
+37631: Transaction 3042 arrived.
+37632: TRANS 3042: Starting transaction 3042.
+37632: TRANS 3042: Trying to claim lock of resource 9 at server 1
+37632: Waiting for other transactions, sending probe messages to them
+37633: TRANS 3042: Lock claimed. Processing...
+37701: TRANS 3042: Trying to claim lock of resource 0 at server 2
+37701: Waiting for other transactions, sending probe messages to them
+37702: TRANS 3042: Lock claimed. Processing...
+37755: TRANS 3042: Trying to claim lock of resource 8 at server 3
+37755: Waiting for other transactions, sending probe messages to them
+37756: TRANS 3042: Dead lock detected[3042, 3042]
+37758: Size of waitForGraph: 2
+37758: Trying to resolve deadlock 3042
+37758: TRANS 3042: Aborting transaction 3042.
+37760: TRANS 3042: Unlocked resource 9 at server 1
+37762: TRANS 3042: Unlocked resource 0 at server 2
+37762: TRANS 3042: Transaction 3042 aborted.
+37766: Transaction 3042 ended.
+38016: Transaction 3043 arrived.
+38016: TRANS 3043: Starting transaction 3043.
+38017: TRANS 3043: Trying to claim lock of resource 8 at server 1
+38017: Waiting for other transactions, sending probe messages to them
+38018: TRANS 3043: Lock claimed. Processing...
+38102: TRANS 3043: Trying to claim lock of resource 9 at server 3
+38103: TRANS 3043: Lock claimed. Processing...
+38201: TRANS 3043: Trying to claim lock of resource 6 at server 1
+38201: Waiting for other transactions, sending probe messages to them
+38202: TRANS 3043: Lock claimed. Processing...
+38279: TRANS 3043: Trying to claim lock of resource 1 at server 1
+38280: Waiting for other transactions, sending probe messages to them
+38280: TRANS 3043: Lock claimed. Processing...
+38376: TRANS 3043: Trying to claim lock of resource 2 at server 1
+38376: Waiting for other transactions, sending probe messages to them
+38377: TRANS 3043: Lock claimed. Processing...
+38433: TRANS 3043: Trying to claim lock of resource 5 at server 3
+38433: Waiting for other transactions, sending probe messages to them
+38434: TRANS 3043: Dead lock detected[3043, 3043]
+38435: Size of waitForGraph: 2
+38436: Trying to resolve deadlock 3043
+38436: TRANS 3043: Aborting transaction 3043.
+38437: TRANS 3043: Unlocked resource 8 at server 1
+38437: TRANS 3043: Unlocked resource 9 at server 3
+38439: TRANS 3043: Unlocked resource 6 at server 1
+38439: TRANS 3043: Unlocked resource 1 at server 1
+38440: TRANS 3043: Unlocked resource 2 at server 1
+38440: TRANS 3043: Transaction 3043 aborted.
+38444: Transaction 3043 ended.
+38529: Transaction 3044 arrived.
+38530: TRANS 3044: Starting transaction 3044.
+38530: TRANS 3044: Trying to claim lock of resource 9 at server 2
+38531: Waiting for other transactions, sending probe messages to them
+38531: TRANS 3044: Lock claimed. Processing...
+38566: TRANS 3044: Trying to claim lock of resource 9 at server 3
+38566: TRANS 3044: Lock claimed. Processing...
+38665: TRANS 3044: Trying to claim lock of resource 5 at server 2
+38666: Waiting for other transactions, sending probe messages to them
+38667: TRANS 3044: Lock claimed. Processing...
+38694: TRANS 3044: Trying to claim lock of resource 2 at server 1
+38694: Waiting for other transactions, sending probe messages to them
+38695: TRANS 3044: Lock claimed. Processing...
+38720: TRANS 3044: Trying to claim lock of resource 0 at server 1
+38721: Waiting for other transactions, sending probe messages to them
+38722: TRANS 3044: Lock claimed. Processing...
+38752: TRANS 3044: Trying to claim lock of resource 3 at server 1
+38753: Waiting for other transactions, sending probe messages to them
+38753: TRANS 3044: Lock claimed. Processing...
+38799: TRANS 3044: Trying to claim lock of resource 3 at server 2
+38799: Waiting for other transactions, sending probe messages to them
+38800: TRANS 3044: Lock claimed. Processing...
+38822: TRANS 3044: Trying to claim lock of resource 4 at server 1
+38822: Waiting for other transactions, sending probe messages to them
+38823: TRANS 3044: Lock claimed. Processing...
+38896: TRANS 3044: Trying to claim lock of resource 2 at server 2
+38896: Waiting for other transactions, sending probe messages to them
+38897: TRANS 3044: Lock claimed. Processing...
+38990: TRANS 3044: Committing transaction 3044.
+38991: TRANS 3044: Unlocked resource 9 at server 2
+38991: TRANS 3044: Unlocked resource 9 at server 3
+38992: TRANS 3044: Unlocked resource 5 at server 2
+38993: TRANS 3044: Unlocked resource 2 at server 1
+38993: TRANS 3044: Unlocked resource 0 at server 1
+38994: TRANS 3044: Unlocked resource 3 at server 1
+38995: TRANS 3044: Unlocked resource 3 at server 2
+38995: TRANS 3044: Unlocked resource 4 at server 1
+38996: TRANS 3044: Unlocked resource 2 at server 2
+38996: TRANS 3044: Transaction 3044 committed.
+38996: Transaction 3044 ended.
+39233: Transaction 3045 arrived.
+39235: TRANS 3045: Starting transaction 3045.
+39235: TRANS 3045: Trying to claim lock of resource 6 at server 1
+39235: Waiting for other transactions, sending probe messages to them
+39236: TRANS 3045: Lock claimed. Processing...
+39331: TRANS 3045: Trying to claim lock of resource 4 at server 3
+39331: TRANS 3045: Lock claimed. Processing...
+39405: TRANS 3045: Trying to claim lock of resource 7 at server 2
+39405: Waiting for other transactions, sending probe messages to them
+39406: TRANS 3045: Lock claimed. Processing...
+39457: TRANS 3045: Trying to claim lock of resource 3 at server 2
+39457: Waiting for other transactions, sending probe messages to them
+39458: TRANS 3045: Lock claimed. Processing...
+39515: TRANS 3045: Trying to claim lock of resource 2 at server 1
+39515: Waiting for other transactions, sending probe messages to them
+39518: Waiting for other transactions, sending probe messages to them
+39555: Waiting for other transactions, sending probe messages to them
